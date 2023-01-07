@@ -60,7 +60,7 @@ for i in range(0, rounded):
         result.append(repo)
     print(url, file=sys.stderr)
 
-with open(os.path.join(DATA_DIR, "result.json"), "w") as writer:
+with open(os.path.join(DATA_DIR, "data.json"), "w") as writer:
     writer.write(json.dumps(result, indent=4))
 
 for count_type in ["stargazers", "forks"]:
