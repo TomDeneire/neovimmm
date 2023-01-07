@@ -22,10 +22,14 @@ function show_result(data, search_value) {
         if ((repo_info.includes(search_value)) || (search_value == "")) {
             if (!check.includes(repo["full_name"])) {
                 let repo_name = `<a target="_blank" href="${repo["html_url"]}">${repo["full_name"]}</a>`;
+                let repo_language = repo["language"]
+                if (repo_language == null) {
+                    repo_language = "(unknown language)"
+                }
                 let row = "<tr>" +
                     "<td>" + repo_name +
                     "<br><b>" + repo["description"] + "</b>" +
-                    "<br>" + repo["language"] +
+                    "<br>" + repo_language +
                     "<br>" + repo["updated_at"].split("T")[0] +
                     "<br>* " + repo["stargazers_count"] +
                     ", &#9282; " + repo["forks_count"] +
