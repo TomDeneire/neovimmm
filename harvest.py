@@ -1,7 +1,8 @@
+import datetime
+import re
 import sys
 import requests
 import json
-import os
 
 QUERY_URL = "https://api.github.com/search/repositories?q=neovim"
 
@@ -15,12 +16,9 @@ HEADERS = {
     "X-GitHub-Api-Version": "2022-11-28",
 }
 
-DATA_DIR = "/home/tdeneire/Dropbox/code/js/neovimmm"
-
 
 def get_total():
     total_query = requests.get(QUERY_URL, headers=HEADERS).json()
-    print(total_query)
     return total_query["total_count"]
 
 
@@ -60,13 +58,22 @@ for i in range(0, rounded):
         result.append(repo)
     print(url, file=sys.stderr)
 
-with open(os.path.join(DATA_DIR, "data.json"), "w") as writer:
+with open("data.json", "w") as writer:
     writer.write(json.dumps(result, indent=4))
 
 for count_type in ["stargazers", "forks"]:
     result = sorted(result, key=lambda x: x[(count_type + "_count")], reverse=True)
     for i, r in enumerate(result):
         r.update({(count_type + "_sort"): i})
-    p = os.path.join(DATA_DIR, f"{count_type}.json")
+    p = f"{count_type}.json"
     with open(p, "w") as writer:
         writer.write(json.dumps(result[0:99], indent=4))
+
+with open("index.html", "r") as reader:
+    index = reader.read()
+    regex = re.compile(r'<span>:: Update.*</span>')
+    date = str(datetime.datetime.now()).split(" ")[0]
+    index = re.sub(regex, f"<span>:: Update {date}</span>", index)
+
+with open("index.html", "w") as writer:
+    writer.write(index)
