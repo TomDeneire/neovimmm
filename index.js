@@ -1,6 +1,5 @@
 // GLOBALS
 
-// var repos = await fetch('https://tomdeneire.github.io/neovimmm/data.json')
 var repos = await fetch('https://tomdeneire.github.io/neovimmm/data.json');
 const ALL_REPOS = await repos.json();
 var stars = await fetch('https://tomdeneire.github.io/neovimmm/stargazers.json');
