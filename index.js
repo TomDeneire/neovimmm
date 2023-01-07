@@ -1,11 +1,11 @@
 // GLOBALS
 
 // var repos = await fetch('https://tomdeneire.github.io/neovimmm/data.json')
-var repos = await fetch('/data.json');
+var repos = await fetch('https://tomdeneire.github.io/neovimmm/data.json');
 const ALL_REPOS = await repos.json();
-var stars = await fetch('/stargazers.json');
+var stars = await fetch('https://tomdeneire.github.io/neovimmm/stargazers.json');
 const TOP_100_STARS = await stars.json();
-var forks = await fetch('/forks.json');
+var forks = await fetch('https://tomdeneire.github.io/neovimmm/forks.json');
 const TOP_100_FORKS = await forks.json();
 var result = document.getElementById("result");
 
