@@ -19,6 +19,3 @@ If you're interested in more Neovim content, check out my posts on Medium:
 - [NeoVim Conference 2022 (Day 1)](https://tomdeneire.medium.com/neovim-conference-2022-day-1-b65099ce3391)
 - [NeoVim Conference 2022 (day 2)](https://tomdeneire.medium.com/neovim-conference-2022-day-2-24820d8226e)
 
-
-
-

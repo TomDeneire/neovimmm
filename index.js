@@ -15,6 +15,7 @@ function show_result(data, search_value) {
     let check = [];
     data.forEach(repo => {
         let repo_info = repo["full_name"] + repo["name"];
+        repo_info = repo_info.toLowerCase();
         if (repo["description"] != null) {
             repo_info = repo_info + repo["description"];
         }
@@ -37,6 +38,7 @@ function show_result(data, search_value) {
 }
 function search() {
     let search_value = document.getElementById("search").value;
+    search_value = search_value.toLowerCase();
     if (search_value.length < 3) {
         return;
     }
