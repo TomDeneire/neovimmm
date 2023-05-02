@@ -2,20 +2,14 @@
 
 ![screenshot.png](screenshot.png)
 
-Recently, I fell in love with Neovim and went down the rabbit hole of (Neo)Vim plugins.
+Every Neovim user knows about the hunt for the perfect plugin. Of course, exploring the plugin ecosystem is a lot of fun, but it can also be a rabbit hole that is not only time-consuming, but sometimes also frustrating. There are so many plugins out there, but how to find the one that is right for you and is tried and tested by the community?
 
-So I decided to create [neovimmm](https://tomdeneire.github.io/neovimmm/), a small browsing tool for GitHub's top 1000 Neovim plugins!
+That is why I made [neovimmm](https://tomdeneire.github.io/neovimmm/), a browsing tool for GitHub's top 1000 Neovim plugins! Sure, you can Google plugins or scoure Reddit and other platforms, but what about a dedicated search engine built on an index of GitHub's top Neovim repositories that ranks the results according to stars and forks?
 
-I used GitHub's API for this, but unfortunately, both GitHub's [REST](https://docs.github.com/en/rest/search?apiVersion=2022-11-28) and [GraphQL](https://docs.github.com/en/graphql/overview/resource-limitations) APIs limit results to 1,000 items. On the flip side, GitHub does seem to suggest that these are the top 1,000 results:
+Unfortunately, the corpus for Neovimmm is only 1,000 repositories, because of the limitations to GitHub's APIs ([REST](https://docs.github.com/en/rest/search?apiVersion=2022-11-28) and [GraphQL](https://docs.github.com/en/graphql/overview/resource-limitations)). However, according to the documentation these are the _best_ results for the keyword `neovim`:
 
 > Think of it the way you think of performing a search on Google. It's designed to help you find the one result you're looking for (or maybe the few results you're looking for). Just like searching on Google, you sometimes want to see a few pages of search results so that you can find the item that best meets your needs. To satisfy that need, the GitHub REST API provides up to 1,000 results for each search.
 
-So check [neovimmm](https://tomdeneire.github.io/neovimmm/) out! The page also features the top 100 repos for stars and forks.
+So if you're into Neovim and next time you need a specific plugin, check out [neovimmm](https://tomdeneire.github.io/neovimmm/)! Or maybe you just want to browse the top 100 repos based on stars and forks? And who doesn't like the good old "Feeling lucky?"?
 
-If you're interested in more Neovim content, check out my posts on Medium:
-
-- [TIL: Vim motions](https://tomdeneire.medium.com/til-vim-motions-49ef8ca8f064)
-- [VSCode vs Neovim](https://tomdeneire.medium.com/vscode-vs-neovim-164cfc7b8399)
-- [NeoVim Conference 2022 (Day 1)](https://tomdeneire.medium.com/neovim-conference-2022-day-1-b65099ce3391)
-- [NeoVim Conference 2022 (day 2)](https://tomdeneire.medium.com/neovim-conference-2022-day-2-24820d8226e)
-
+More than enough to make you go ... Neovimmm!
