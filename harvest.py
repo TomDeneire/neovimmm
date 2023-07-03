@@ -52,7 +52,10 @@ for i in range(0, rounded):
         # "watchers_count" is unreliable...
         for key in ["name", "html_url", "description", "updated_at",
                     "forks_count", "language", "stargazers_count", "created_at"]:
-            repo.update({key: item[key]})
+            data = item[key]
+            if not data:
+                data = ""
+            repo.update({key: data})
         if item["license"]:
             repo.update({"license_name": item["license"]["name"]})
         result.append(repo)
