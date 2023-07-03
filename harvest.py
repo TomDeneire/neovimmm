@@ -51,7 +51,7 @@ for i in range(0, rounded):
         repo["full_name"] = item["full_name"]
         # "watchers_count" is unreliable...
         for key in ["name", "html_url", "description", "updated_at",
-                    "forks_count", "language", "stargazers_count"]:
+                    "forks_count", "language", "stargazers_count", "created_at"]:
             repo.update({key: item[key]})
         if item["license"]:
             repo.update({"license_name": item["license"]["name"]})
@@ -61,11 +61,13 @@ for i in range(0, rounded):
 with open("data.json", "w") as writer:
     writer.write(json.dumps(result, indent=4))
 
-for count_type in ["stargazers", "forks"]:
-    result = sorted(result, key=lambda x: x[(count_type + "_count")], reverse=True)
+for count_type in ["stargazers_count", "forks_count", "created_at"]:
+    result = sorted(result, key=lambda x: x[(
+        count_type)], reverse=True)
     for i, r in enumerate(result):
         r.update({(count_type + "_sort"): i})
     p = f"{count_type}.json"
+    p = p.replace("_count", "")
     with open(p, "w") as writer:
         writer.write(json.dumps(result[0:99], indent=4))
 
