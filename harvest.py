@@ -65,8 +65,8 @@ with open("data.json", "w") as writer:
     writer.write(json.dumps(result, indent=4))
 
 for count_type in ["stargazers_count", "forks_count", "created_at"]:
-    result = sorted(result, key=lambda x: x[(
-        count_type)], reverse=True)
+    result = sorted(result, key=lambda x: str(x[(
+        count_type)]), reverse=True)
     for i, r in enumerate(result):
         r.update({(count_type + "_sort"): i})
     p = f"{count_type}.json"
