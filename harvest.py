@@ -76,9 +76,9 @@ for count_type in ["stargazers_count", "forks_count", "created_at"]:
 
 with open("index.html", "r") as reader:
     index = reader.read()
-    regex = re.compile(r'<span>:: Update.*</span>')
+    regex = re.compile(r'<span> :: Update.*</span>')
     date = str(datetime.datetime.now()).split(" ")[0]
-    index = re.sub(regex, f"<span>:: Update {date}</span>", index)
+    index = re.sub(regex, f"<span> :: Update {date}</span>", index)
 
 with open("index.html", "w") as writer:
     writer.write(index)
