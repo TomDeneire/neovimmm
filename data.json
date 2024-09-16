@@ -2884,18 +2884,6 @@
         "license_name": "Apache License 2.0"
     },
     {
-        "full_name": "ellisonleao/glow.nvim",
-        "name": "glow.nvim",
-        "html_url": "https://github.com/ellisonleao/glow.nvim",
-        "description": "A markdown preview directly in your neovim.",
-        "updated_at": "2024-09-15T11:34:10Z",
-        "forks_count": 53,
-        "language": "Lua",
-        "stargazers_count": 1267,
-        "created_at": "2020-08-12T23:40:54Z",
-        "license_name": "MIT License"
-    },
-    {
         "full_name": "folke/todo-comments.nvim",
         "name": "todo-comments.nvim",
         "html_url": "https://github.com/folke/todo-comments.nvim",
@@ -2906,6 +2894,18 @@
         "stargazers_count": 3103,
         "created_at": "2021-05-10T19:38:20Z",
         "license_name": "Apache License 2.0"
+    },
+    {
+        "full_name": "ellisonleao/glow.nvim",
+        "name": "glow.nvim",
+        "html_url": "https://github.com/ellisonleao/glow.nvim",
+        "description": "A markdown preview directly in your neovim.",
+        "updated_at": "2024-09-15T11:34:10Z",
+        "forks_count": 53,
+        "language": "Lua",
+        "stargazers_count": 1267,
+        "created_at": "2020-08-12T23:40:54Z",
+        "license_name": "MIT License"
     },
     {
         "full_name": "elixir-tools/elixir-tools.nvim",
@@ -4127,18 +4127,6 @@
         "created_at": "2021-08-07T17:22:53Z"
     },
     {
-        "full_name": "RMichelsen/Nvy",
-        "name": "Nvy",
-        "html_url": "https://github.com/RMichelsen/Nvy",
-        "description": "Nvy - A Neovim client in C++",
-        "updated_at": "2024-09-12T14:47:50Z",
-        "forks_count": 26,
-        "language": "C++",
-        "stargazers_count": 314,
-        "created_at": "2020-08-18T21:43:45Z",
-        "license_name": "MIT License"
-    },
-    {
         "full_name": "Wansmer/treesj",
         "name": "treesj",
         "html_url": "https://github.com/Wansmer/treesj",
@@ -4148,6 +4136,18 @@
         "language": "Lua",
         "stargazers_count": 1002,
         "created_at": "2022-11-11T12:09:43Z",
+        "license_name": "MIT License"
+    },
+    {
+        "full_name": "RMichelsen/Nvy",
+        "name": "Nvy",
+        "html_url": "https://github.com/RMichelsen/Nvy",
+        "description": "Nvy - A Neovim client in C++",
+        "updated_at": "2024-09-12T14:47:50Z",
+        "forks_count": 26,
+        "language": "C++",
+        "stargazers_count": 314,
+        "created_at": "2020-08-18T21:43:45Z",
         "license_name": "MIT License"
     },
     {
@@ -5181,16 +5181,15 @@
         "license_name": "MIT License"
     },
     {
-        "full_name": "smolck/uivonim",
-        "name": "uivonim",
-        "html_url": "https://github.com/smolck/uivonim",
-        "description": "Fork of the Veonim Neovim GUI",
-        "updated_at": "2024-09-15T00:15:07Z",
-        "forks_count": 12,
-        "language": "TypeScript",
-        "stargazers_count": 615,
-        "created_at": "2020-10-01T01:24:53Z",
-        "license_name": "GNU Affero General Public License v3.0"
+        "full_name": "vim-test/vim-test",
+        "name": "vim-test",
+        "html_url": "https://github.com/vim-test/vim-test",
+        "description": "Run your tests at the speed of thought",
+        "updated_at": "2024-09-14T05:14:04Z",
+        "forks_count": 392,
+        "language": "Vim Script",
+        "stargazers_count": 2974,
+        "created_at": "2014-12-15T17:34:43Z"
     },
     {
         "full_name": "sts10/vim-pink-moon",
@@ -5205,15 +5204,16 @@
         "license_name": "MIT License"
     },
     {
-        "full_name": "vim-test/vim-test",
-        "name": "vim-test",
-        "html_url": "https://github.com/vim-test/vim-test",
-        "description": "Run your tests at the speed of thought",
-        "updated_at": "2024-09-14T05:14:04Z",
-        "forks_count": 392,
-        "language": "Vim Script",
-        "stargazers_count": 2974,
-        "created_at": "2014-12-15T17:34:43Z"
+        "full_name": "smolck/uivonim",
+        "name": "uivonim",
+        "html_url": "https://github.com/smolck/uivonim",
+        "description": "Fork of the Veonim Neovim GUI",
+        "updated_at": "2024-09-15T00:15:07Z",
+        "forks_count": 12,
+        "language": "TypeScript",
+        "stargazers_count": 615,
+        "created_at": "2020-10-01T01:24:53Z",
+        "license_name": "GNU Affero General Public License v3.0"
     },
     {
         "full_name": "ThemerCorp/themer.lua",
@@ -10528,17 +10528,6 @@
         "license_name": "MIT License"
     },
     {
-        "full_name": "noahfrederick/vim-noctu",
-        "name": "vim-noctu",
-        "html_url": "https://github.com/noahfrederick/vim-noctu",
-        "description": "A Vim color scheme for 16-color terminals",
-        "updated_at": "2024-09-09T18:07:36Z",
-        "forks_count": 19,
-        "language": "Vim script",
-        "stargazers_count": 200,
-        "created_at": "2013-02-25T01:52:15Z"
-    },
-    {
         "full_name": "niksingh710/nvix",
         "name": "nvix",
         "html_url": "https://github.com/niksingh710/nvix",
@@ -10549,6 +10538,17 @@
         "stargazers_count": 38,
         "created_at": "2024-06-16T12:43:57Z",
         "license_name": "MIT License"
+    },
+    {
+        "full_name": "noahfrederick/vim-noctu",
+        "name": "vim-noctu",
+        "html_url": "https://github.com/noahfrederick/vim-noctu",
+        "description": "A Vim color scheme for 16-color terminals",
+        "updated_at": "2024-09-09T18:07:36Z",
+        "forks_count": 19,
+        "language": "Vim script",
+        "stargazers_count": 200,
+        "created_at": "2013-02-25T01:52:15Z"
     },
     {
         "full_name": "Traap/nvim",
@@ -11596,18 +11596,6 @@
         "created_at": "2022-05-16T12:40:25Z"
     },
     {
-        "full_name": "yutkat/dotfiles",
-        "name": "dotfiles",
-        "html_url": "https://github.com/yutkat/dotfiles",
-        "description": "The best and strongest dotfiles. Editor: Neovim; Shell: zsh(zinit, powerlevel10k); Terminal: WezTerm; Desktop: Hyprland, ulauncher, dunst; OS: ArchLinux (Ubuntu/Fedora/CentOS)",
-        "updated_at": "2024-09-14T05:33:46Z",
-        "forks_count": 49,
-        "language": "Lua",
-        "stargazers_count": 741,
-        "created_at": "2015-10-21T16:04:18Z",
-        "license_name": "MIT License"
-    },
-    {
         "full_name": "moong00n/neovim-starter",
         "name": "neovim-starter",
         "html_url": "https://github.com/moong00n/neovim-starter",
@@ -11617,6 +11605,18 @@
         "language": "Lua",
         "stargazers_count": 16,
         "created_at": "2024-03-09T16:34:46Z",
+        "license_name": "MIT License"
+    },
+    {
+        "full_name": "yutkat/dotfiles",
+        "name": "dotfiles",
+        "html_url": "https://github.com/yutkat/dotfiles",
+        "description": "The best and strongest dotfiles. Editor: Neovim; Shell: zsh(zinit, powerlevel10k); Terminal: WezTerm; Desktop: Hyprland, ulauncher, dunst; OS: ArchLinux (Ubuntu/Fedora/CentOS)",
+        "updated_at": "2024-09-14T05:33:46Z",
+        "forks_count": 49,
+        "language": "Lua",
+        "stargazers_count": 741,
+        "created_at": "2015-10-21T16:04:18Z",
         "license_name": "MIT License"
     },
     {
@@ -11972,18 +11972,6 @@
         "license_name": "MIT License"
     },
     {
-        "full_name": "wsdjeg/vim-todo",
-        "name": "vim-todo",
-        "html_url": "https://github.com/wsdjeg/vim-todo",
-        "description": "Better TODO manager plugin for neovim/vim",
-        "updated_at": "2024-07-24T02:32:53Z",
-        "forks_count": 5,
-        "language": "Vim Script",
-        "stargazers_count": 102,
-        "created_at": "2019-07-11T10:38:52Z",
-        "license_name": "GNU General Public License v3.0"
-    },
-    {
         "full_name": "aserowy/tmux.nvim",
         "name": "tmux.nvim",
         "html_url": "https://github.com/aserowy/tmux.nvim",
@@ -11994,6 +11982,18 @@
         "stargazers_count": 618,
         "created_at": "2021-06-19T04:19:00Z",
         "license_name": "MIT License"
+    },
+    {
+        "full_name": "wsdjeg/vim-todo",
+        "name": "vim-todo",
+        "html_url": "https://github.com/wsdjeg/vim-todo",
+        "description": "Better TODO manager plugin for neovim/vim",
+        "updated_at": "2024-07-24T02:32:53Z",
+        "forks_count": 5,
+        "language": "Vim Script",
+        "stargazers_count": 102,
+        "created_at": "2019-07-11T10:38:52Z",
+        "license_name": "GNU General Public License v3.0"
     },
     {
         "full_name": "lwotcynna/nvim",
