@@ -29,6 +29,22 @@ def get_page(url):
     except Exception:
         return {}
 
+def to_int(v, default=0):
+    if v is None:
+        return default
+    if isinstance(v, int):
+        return v
+    if isinstance(v, str):
+        v = v.strip()
+        if v == "":
+            return default
+        # laat ook "1,234" of "1_234" toe
+        v = v.replace(",", "").replace("_", "")
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return default
+
 
 result = []
 pages = get_total() / 100
@@ -65,14 +81,27 @@ with open("data.json", "w") as writer:
     writer.write(json.dumps(result, indent=4))
 
 for count_type in ["stargazers_count", "forks_count", "created_at"]:
-    result = sorted(result, key=lambda x: str(x[(
-        count_type)]), reverse=True)
+    if count_type == "created_at":
+        result = sorted(
+            result,
+            key=lambda x: datetime.datetime.fromisoformat(
+                (x.get("created_at") or "1970-01-01T00:00:00Z").replace("Z", "")
+            ),
+            reverse=True
+        )
+    else:
+        result = sorted(
+            result,
+            key=lambda x: to_int(x.get(count_type)),
+            reverse=True
+        )
+
     for i, r in enumerate(result):
-        r.update({(count_type + "_sort"): i})
-    p = f"{count_type}.json"
-    p = p.replace("_count", "")
+        r[count_type + "_sort"] = i
+
+    p = count_type.replace("_count", "") + ".json"
     with open(p, "w") as writer:
-        writer.write(json.dumps(result[0:99], indent=4))
+        json.dump(result[:99], writer, indent=4)
 
 with open("index.html", "r") as reader:
     index = reader.read()
