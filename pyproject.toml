@@ -1,0 +1,7 @@
+[project]
+name = "neovimmm"
+version = "0.2.0"
+requires-python = ">=3.9"
+dependencies = [
+  "requests",
+]
