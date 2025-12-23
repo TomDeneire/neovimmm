@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta name="generator" content="Hugo 0.92.2" />
@@ -131,7 +131,7 @@
         <div class="footer__inner">
           <div class="copyright">
             <span
-              >© 2023
+              >© <span id="year"></span>
               <a href="https://tomdeneire.github.io">Tom Deneire</a></span
             >
             <span>
@@ -143,12 +143,15 @@
               ></span
             >
 
-            <span> :: Update 2025-12-23</span>
+            <span> :: Last update 2025-12-23</span>
           </div>
         </div>
       </footer>
 
       <script type="text/javascript" src="bundle.min.js"></script>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
     </div>
   </body>
 </html>
