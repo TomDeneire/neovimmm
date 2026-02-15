@@ -1,16 +1,16 @@
 [
     {
-        "full_name": "neovim/neovim",
-        "name": "neovim",
-        "html_url": "https://github.com/neovim/neovim",
-        "description": "Vim-fork focused on extensibility and usability",
-        "updated_at": "2026-02-15T12:33:54Z",
-        "forks_count": 6583,
-        "language": "Vim Script",
-        "stargazers_count": 96445,
-        "created_at": "2014-01-31T13:39:22Z",
-        "license_name": "Other",
-        "stargazers_count_sort": 0,
+        "full_name": "nvim-lua/kickstart.nvim",
+        "name": "kickstart.nvim",
+        "html_url": "https://github.com/nvim-lua/kickstart.nvim",
+        "description": "A launch point for your personal nvim configuration",
+        "updated_at": "2026-02-15T13:17:23Z",
+        "forks_count": 44265,
+        "language": "Lua",
+        "stargazers_count": 29452,
+        "created_at": "2022-06-24T03:11:24Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 3,
         "forks_count_sort": 0
     },
     {
@@ -18,13 +18,13 @@
         "name": "neovim",
         "html_url": "https://github.com/neovim/neovim",
         "description": "Vim-fork focused on extensibility and usability",
-        "updated_at": "2026-02-15T12:33:54Z",
+        "updated_at": "2026-02-15T13:13:42Z",
         "forks_count": 6583,
         "language": "Vim Script",
-        "stargazers_count": 96445,
+        "stargazers_count": 96446,
         "created_at": "2014-01-31T13:39:22Z",
         "license_name": "Other",
-        "stargazers_count_sort": 1,
+        "stargazers_count_sort": 0,
         "forks_count_sort": 1
     },
     {
@@ -38,7 +38,7 @@
         "stargazers_count": 77785,
         "created_at": "2013-10-23T16:04:23Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 2,
+        "stargazers_count_sort": 1,
         "forks_count_sort": 2
     },
     {
@@ -52,7 +52,7 @@
         "stargazers_count": 13348,
         "created_at": "2019-11-13T17:12:28Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 23,
+        "stargazers_count_sort": 16,
         "forks_count_sort": 3
     },
     {
@@ -66,134 +66,64 @@
         "stargazers_count": 27870,
         "created_at": "2021-03-07T14:33:17Z",
         "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 3,
+        "stargazers_count_sort": 4,
         "forks_count_sort": 4
     },
     {
-        "full_name": "NvChad/NvChad",
-        "name": "NvChad",
-        "html_url": "https://github.com/NvChad/NvChad",
-        "description": "Blazing fast Neovim framework providing solid defaults and a beautiful UI, enhancing your neovim experience.",
-        "updated_at": "2026-02-15T12:47:32Z",
-        "forks_count": 2275,
+        "full_name": "LazyVim/LazyVim",
+        "name": "LazyVim",
+        "html_url": "https://github.com/LazyVim/LazyVim",
+        "description": "Neovim config for the lazy",
+        "updated_at": "2026-02-15T11:29:51Z",
+        "forks_count": 1736,
         "language": "Lua",
-        "stargazers_count": 27870,
-        "created_at": "2021-03-07T14:33:17Z",
-        "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 4,
+        "stargazers_count": 25051,
+        "created_at": "2022-12-30T16:31:42Z",
+        "license_name": "Apache License 2.0",
+        "stargazers_count_sort": 6,
         "forks_count_sort": 5
     },
     {
-        "full_name": "LazyVim/LazyVim",
-        "name": "LazyVim",
-        "html_url": "https://github.com/LazyVim/LazyVim",
-        "description": "Neovim config for the lazy",
-        "updated_at": "2026-02-15T11:29:51Z",
-        "forks_count": 1736,
+        "full_name": "LunarVim/LunarVim",
+        "name": "LunarVim",
+        "html_url": "https://github.com/LunarVim/LunarVim",
+        "description": "\ud83c\udf19 LunarVim is an IDE layer for Neovim. Completely free and community driven.",
+        "updated_at": "2026-02-15T03:25:19Z",
+        "forks_count": 1499,
         "language": "Lua",
-        "stargazers_count": 25051,
-        "created_at": "2022-12-30T16:31:42Z",
-        "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 7,
+        "stargazers_count": 19223,
+        "created_at": "2018-08-16T23:55:19Z",
+        "license_name": "GNU General Public License v3.0",
+        "stargazers_count_sort": 9,
         "forks_count_sort": 6
     },
     {
-        "full_name": "LazyVim/LazyVim",
-        "name": "LazyVim",
-        "html_url": "https://github.com/LazyVim/LazyVim",
-        "description": "Neovim config for the lazy",
-        "updated_at": "2026-02-15T11:29:51Z",
-        "forks_count": 1736,
-        "language": "Lua",
-        "stargazers_count": 25051,
-        "created_at": "2022-12-30T16:31:42Z",
-        "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 8,
+        "full_name": "dense-analysis/ale",
+        "name": "ale",
+        "html_url": "https://github.com/dense-analysis/ale",
+        "description": "Check syntax in Vim/Neovim asynchronously and fix files, with Language Server Protocol (LSP) support",
+        "updated_at": "2026-02-15T03:31:55Z",
+        "forks_count": 1478,
+        "language": "Vim Script",
+        "stargazers_count": 13963,
+        "created_at": "2016-09-08T23:22:45Z",
+        "license_name": "BSD 2-Clause \"Simplified\" License",
+        "stargazers_count_sort": 15,
         "forks_count_sort": 7
     },
     {
-        "full_name": "LunarVim/LunarVim",
-        "name": "LunarVim",
-        "html_url": "https://github.com/LunarVim/LunarVim",
-        "description": "\ud83c\udf19 LunarVim is an IDE layer for Neovim. Completely free and community driven.",
-        "updated_at": "2026-02-15T03:25:19Z",
-        "forks_count": 1499,
+        "full_name": "LunarVim/Neovim-from-scratch",
+        "name": "Neovim-from-scratch",
+        "html_url": "https://github.com/LunarVim/Neovim-from-scratch",
+        "description": "\ud83d\udcda A Neovim config designed from scratch to be understandable",
+        "updated_at": "2026-02-13T17:41:38Z",
+        "forks_count": 1116,
         "language": "Lua",
-        "stargazers_count": 19223,
-        "created_at": "2018-08-16T23:55:19Z",
+        "stargazers_count": 5570,
+        "created_at": "2021-12-15T05:35:18Z",
         "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 13,
+        "stargazers_count_sort": 48,
         "forks_count_sort": 8
-    },
-    {
-        "full_name": "LunarVim/LunarVim",
-        "name": "LunarVim",
-        "html_url": "https://github.com/LunarVim/LunarVim",
-        "description": "\ud83c\udf19 LunarVim is an IDE layer for Neovim. Completely free and community driven.",
-        "updated_at": "2026-02-15T03:25:19Z",
-        "forks_count": 1499,
-        "language": "Lua",
-        "stargazers_count": 19223,
-        "created_at": "2018-08-16T23:55:19Z",
-        "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 14,
-        "forks_count_sort": 9
-    },
-    {
-        "full_name": "dense-analysis/ale",
-        "name": "ale",
-        "html_url": "https://github.com/dense-analysis/ale",
-        "description": "Check syntax in Vim/Neovim asynchronously and fix files, with Language Server Protocol (LSP) support",
-        "updated_at": "2026-02-15T03:31:55Z",
-        "forks_count": 1478,
-        "language": "Vim Script",
-        "stargazers_count": 13963,
-        "created_at": "2016-09-08T23:22:45Z",
-        "license_name": "BSD 2-Clause \"Simplified\" License",
-        "stargazers_count_sort": 21,
-        "forks_count_sort": 10
-    },
-    {
-        "full_name": "dense-analysis/ale",
-        "name": "ale",
-        "html_url": "https://github.com/dense-analysis/ale",
-        "description": "Check syntax in Vim/Neovim asynchronously and fix files, with Language Server Protocol (LSP) support",
-        "updated_at": "2026-02-15T03:31:55Z",
-        "forks_count": 1478,
-        "language": "Vim Script",
-        "stargazers_count": 13963,
-        "created_at": "2016-09-08T23:22:45Z",
-        "license_name": "BSD 2-Clause \"Simplified\" License",
-        "stargazers_count_sort": 22,
-        "forks_count_sort": 11
-    },
-    {
-        "full_name": "LunarVim/Neovim-from-scratch",
-        "name": "Neovim-from-scratch",
-        "html_url": "https://github.com/LunarVim/Neovim-from-scratch",
-        "description": "\ud83d\udcda A Neovim config designed from scratch to be understandable",
-        "updated_at": "2026-02-13T17:41:38Z",
-        "forks_count": 1116,
-        "language": "Lua",
-        "stargazers_count": 5570,
-        "created_at": "2021-12-15T05:35:18Z",
-        "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 67,
-        "forks_count_sort": 12
-    },
-    {
-        "full_name": "LunarVim/Neovim-from-scratch",
-        "name": "Neovim-from-scratch",
-        "html_url": "https://github.com/LunarVim/Neovim-from-scratch",
-        "description": "\ud83d\udcda A Neovim config designed from scratch to be understandable",
-        "updated_at": "2026-02-13T17:41:38Z",
-        "forks_count": 1116,
-        "language": "Lua",
-        "stargazers_count": 5570,
-        "created_at": "2021-12-15T05:35:18Z",
-        "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 68,
-        "forks_count_sort": 13
     },
     {
         "full_name": "nvim-treesitter/nvim-treesitter",
@@ -206,8 +136,8 @@
         "stargazers_count": 13264,
         "created_at": "2020-04-18T15:24:10Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 24,
-        "forks_count_sort": 14
+        "stargazers_count_sort": 17,
+        "forks_count_sort": 9
     },
     {
         "full_name": "neoclide/coc.nvim",
@@ -221,21 +151,7 @@
         "created_at": "2018-05-01T22:39:02Z",
         "license_name": "Other",
         "stargazers_count_sort": 5,
-        "forks_count_sort": 15
-    },
-    {
-        "full_name": "neoclide/coc.nvim",
-        "name": "coc.nvim",
-        "html_url": "https://github.com/neoclide/coc.nvim",
-        "description": "Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.",
-        "updated_at": "2026-02-15T09:36:48Z",
-        "forks_count": 964,
-        "language": "TypeScript",
-        "stargazers_count": 25141,
-        "created_at": "2018-05-01T22:39:02Z",
-        "license_name": "Other",
-        "stargazers_count_sort": 6,
-        "forks_count_sort": 16
+        "forks_count_sort": 10
     },
     {
         "full_name": "rockerBOO/awesome-neovim",
@@ -248,22 +164,8 @@
         "stargazers_count": 20196,
         "created_at": "2020-09-18T18:40:59Z",
         "license_name": "Creative Commons Zero v1.0 Universal",
-        "stargazers_count_sort": 11,
-        "forks_count_sort": 17
-    },
-    {
-        "full_name": "rockerBOO/awesome-neovim",
-        "name": "awesome-neovim",
-        "html_url": "https://github.com/rockerBOO/awesome-neovim",
-        "description": "Collections of awesome neovim plugins.",
-        "updated_at": "2026-02-15T11:20:28Z",
-        "forks_count": 954,
-        "language": "Shell",
-        "stargazers_count": 20196,
-        "created_at": "2020-09-18T18:40:59Z",
-        "license_name": "Creative Commons Zero v1.0 Universal",
-        "stargazers_count_sort": 12,
-        "forks_count_sort": 18
+        "stargazers_count_sort": 8,
+        "forks_count_sort": 11
     },
     {
         "full_name": "AstroNvim/AstroNvim",
@@ -276,8 +178,8 @@
         "stargazers_count": 14114,
         "created_at": "2022-02-02T22:33:34Z",
         "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 20,
-        "forks_count_sort": 19
+        "stargazers_count_sort": 14,
+        "forks_count_sort": 12
     },
     {
         "full_name": "nvim-telescope/telescope.nvim",
@@ -290,8 +192,8 @@
         "stargazers_count": 19056,
         "created_at": "2020-07-15T04:04:58Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 15,
-        "forks_count_sort": 20
+        "stargazers_count_sort": 10,
+        "forks_count_sort": 13
     },
     {
         "full_name": "yetone/avante.nvim",
@@ -304,22 +206,8 @@
         "stargazers_count": 17367,
         "created_at": "2024-08-14T16:45:16Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 16,
-        "forks_count_sort": 21
-    },
-    {
-        "full_name": "yetone/avante.nvim",
-        "name": "avante.nvim",
-        "html_url": "https://github.com/yetone/avante.nvim",
-        "description": "Use your Neovim like using Cursor AI IDE!",
-        "updated_at": "2026-02-15T12:19:53Z",
-        "forks_count": 797,
-        "language": "Lua",
-        "stargazers_count": 17367,
-        "created_at": "2024-08-14T16:45:16Z",
-        "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 17,
-        "forks_count_sort": 22
+        "stargazers_count_sort": 12,
+        "forks_count_sort": 14
     },
     {
         "full_name": "github/copilot.vim",
@@ -332,36 +220,22 @@
         "stargazers_count": 11354,
         "created_at": "2021-10-20T18:29:13Z",
         "license_name": "Other",
-        "stargazers_count_sort": 25,
-        "forks_count_sort": 23
+        "stargazers_count_sort": 18,
+        "forks_count_sort": 15
     },
     {
-        "full_name": "github/copilot.vim",
-        "name": "copilot.vim",
-        "html_url": "https://github.com/github/copilot.vim",
-        "description": "Neovim plugin for GitHub Copilot",
-        "updated_at": "2026-02-15T06:57:05Z",
-        "forks_count": 718,
-        "language": "Vim Script",
-        "stargazers_count": 11354,
-        "created_at": "2021-10-20T18:29:13Z",
-        "license_name": "Other",
-        "stargazers_count_sort": 26,
-        "forks_count_sort": 24
-    },
-    {
-        "full_name": "nvim-tree/nvim-tree.lua",
-        "name": "nvim-tree.lua",
-        "html_url": "https://github.com/nvim-tree/nvim-tree.lua",
-        "description": "A file explorer tree for neovim written in lua",
-        "updated_at": "2026-02-15T00:14:16Z",
-        "forks_count": 637,
-        "language": "Lua",
-        "stargazers_count": 8371,
-        "created_at": "2020-02-04T19:00:47Z",
-        "license_name": "Other",
-        "stargazers_count_sort": 34,
-        "forks_count_sort": 25
+        "full_name": "sxyazi/yazi",
+        "name": "yazi",
+        "html_url": "https://github.com/sxyazi/yazi",
+        "description": "\ud83d\udca5 Blazing fast terminal file manager written in Rust, based on async I/O.",
+        "updated_at": "2026-02-15T12:51:30Z",
+        "forks_count": 705,
+        "language": "Rust",
+        "stargazers_count": 32621,
+        "created_at": "2023-07-08T11:45:55Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 2,
+        "forks_count_sort": 16
     },
     {
         "full_name": "nvim-tree/nvim-tree.lua",
@@ -374,8 +248,22 @@
         "stargazers_count": 8371,
         "created_at": "2020-02-04T19:00:47Z",
         "license_name": "Other",
-        "stargazers_count_sort": 35,
-        "forks_count_sort": 26
+        "stargazers_count_sort": 24,
+        "forks_count_sort": 17
+    },
+    {
+        "full_name": "mhinz/vim-galore",
+        "name": "vim-galore",
+        "html_url": "https://github.com/mhinz/vim-galore",
+        "description": ":mortar_board: All things Vim!",
+        "updated_at": "2026-02-14T17:56:01Z",
+        "forks_count": 625,
+        "language": "Vim script",
+        "stargazers_count": 17737,
+        "created_at": "2016-01-04T17:02:16Z",
+        "license_name": "Creative Commons Attribution Share Alike 4.0 International",
+        "stargazers_count_sort": 11,
+        "forks_count_sort": 18
     },
     {
         "full_name": "junegunn/fzf.vim",
@@ -388,8 +276,8 @@
         "stargazers_count": 10137,
         "created_at": "2015-08-14T16:26:26Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 27,
-        "forks_count_sort": 27
+        "stargazers_count_sort": 19,
+        "forks_count_sort": 19
     },
     {
         "full_name": "jdhao/nvim-config",
@@ -402,8 +290,8 @@
         "stargazers_count": 4244,
         "created_at": "2019-04-25T15:20:42Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 85,
-        "forks_count_sort": 28
+        "stargazers_count_sort": 61,
+        "forks_count_sort": 20
     },
     {
         "full_name": "neovide/neovide",
@@ -416,22 +304,8 @@
         "stargazers_count": 14765,
         "created_at": "2019-12-06T20:51:39Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 18,
-        "forks_count_sort": 29
-    },
-    {
-        "full_name": "neovide/neovide",
-        "name": "neovide",
-        "html_url": "https://github.com/neovide/neovide",
-        "description": "No Nonsense Neovim Client in Rust",
-        "updated_at": "2026-02-15T08:33:50Z",
-        "forks_count": 596,
-        "language": "Rust",
-        "stargazers_count": 14765,
-        "created_at": "2019-12-06T20:51:39Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 19,
-        "forks_count_sort": 30
+        "stargazers_count_sort": 13,
+        "forks_count_sort": 21
     },
     {
         "full_name": "theniceboy/nvim",
@@ -443,21 +317,8 @@
         "language": "Vim Script",
         "stargazers_count": 2164,
         "created_at": "2019-07-12T05:12:19Z",
-        "stargazers_count_sort": 167,
-        "forks_count_sort": 31
-    },
-    {
-        "full_name": "theniceboy/nvim",
-        "name": "nvim",
-        "html_url": "https://github.com/theniceboy/nvim",
-        "description": "The Ultimate NeoVim Config for Colemak Users",
-        "updated_at": "2026-02-15T03:17:48Z",
-        "forks_count": 551,
-        "language": "Vim Script",
-        "stargazers_count": 2164,
-        "created_at": "2019-07-12T05:12:19Z",
-        "stargazers_count_sort": 168,
-        "forks_count_sort": 32
+        "stargazers_count_sort": 134,
+        "forks_count_sort": 22
     },
     {
         "full_name": "folke/lazy.nvim",
@@ -470,22 +331,8 @@
         "stargazers_count": 20259,
         "created_at": "2022-11-20T21:36:02Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 9,
-        "forks_count_sort": 33
-    },
-    {
-        "full_name": "folke/lazy.nvim",
-        "name": "lazy.nvim",
-        "html_url": "https://github.com/folke/lazy.nvim",
-        "description": "\ud83d\udca4 A modern plugin manager for Neovim",
-        "updated_at": "2026-02-15T10:58:17Z",
-        "forks_count": 545,
-        "language": "Lua",
-        "stargazers_count": 20259,
-        "created_at": "2022-11-20T21:36:02Z",
-        "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 10,
-        "forks_count_sort": 34
+        "stargazers_count_sort": 7,
+        "forks_count_sort": 23
     },
     {
         "full_name": "nvim-lualine/lualine.nvim",
@@ -498,8 +345,8 @@
         "stargazers_count": 7736,
         "created_at": "2020-12-30T14:35:10Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 38,
-        "forks_count_sort": 35
+        "stargazers_count_sort": 27,
+        "forks_count_sort": 24
     },
     {
         "full_name": "folke/tokyonight.nvim",
@@ -512,8 +359,8 @@
         "stargazers_count": 7812,
         "created_at": "2021-04-16T17:21:40Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 37,
-        "forks_count_sort": 36
+        "stargazers_count_sort": 26,
+        "forks_count_sort": 25
     },
     {
         "full_name": "joshdick/onedark.vim",
@@ -526,8 +373,8 @@
         "stargazers_count": 3998,
         "created_at": "2015-10-26T05:08:31Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 94,
-        "forks_count_sort": 37
+        "stargazers_count_sort": 69,
+        "forks_count_sort": 26
     },
     {
         "full_name": "ayamir/nvimdots",
@@ -540,22 +387,8 @@
         "stargazers_count": 3373,
         "created_at": "2021-06-19T04:03:23Z",
         "license_name": "BSD 3-Clause \"New\" or \"Revised\" License",
-        "stargazers_count_sort": 116,
-        "forks_count_sort": 38
-    },
-    {
-        "full_name": "ayamir/nvimdots",
-        "name": "nvimdots",
-        "html_url": "https://github.com/ayamir/nvimdots",
-        "description": "A well configured and structured Neovim.",
-        "updated_at": "2026-02-15T00:40:56Z",
-        "forks_count": 484,
-        "language": "Lua",
-        "stargazers_count": 3373,
-        "created_at": "2021-06-19T04:03:23Z",
-        "license_name": "BSD 3-Clause \"New\" or \"Revised\" License",
-        "stargazers_count_sort": 117,
-        "forks_count_sort": 39
+        "stargazers_count_sort": 88,
+        "forks_count_sort": 27
     },
     {
         "full_name": "preservim/tagbar",
@@ -568,8 +401,8 @@
         "stargazers_count": 6223,
         "created_at": "2011-01-11T09:26:10Z",
         "license_name": "Other",
-        "stargazers_count_sort": 54,
-        "forks_count_sort": 40
+        "stargazers_count_sort": 39,
+        "forks_count_sort": 28
     },
     {
         "full_name": "benbrastmckie/nvim",
@@ -581,8 +414,8 @@
         "language": "Lua",
         "stargazers_count": 431,
         "created_at": "2020-06-01T14:55:01Z",
-        "stargazers_count_sort": 481,
-        "forks_count_sort": 41
+        "stargazers_count_sort": 595,
+        "forks_count_sort": 29
     },
     {
         "full_name": "rafi/vim-config",
@@ -594,21 +427,8 @@
         "language": "Lua",
         "stargazers_count": 1968,
         "created_at": "2014-01-04T19:15:37Z",
-        "stargazers_count_sort": 191,
-        "forks_count_sort": 42
-    },
-    {
-        "full_name": "rafi/vim-config",
-        "name": "vim-config",
-        "html_url": "https://github.com/rafi/vim-config",
-        "description": "Lean mean Neovim machine, carefully crafted with :heart:  Use with latest Neovim.",
-        "updated_at": "2026-02-10T00:04:49Z",
-        "forks_count": 464,
-        "language": "Lua",
-        "stargazers_count": 1968,
-        "created_at": "2014-01-04T19:15:37Z",
-        "stargazers_count_sort": 192,
-        "forks_count_sort": 43
+        "stargazers_count_sort": 154,
+        "forks_count_sort": 30
     },
     {
         "full_name": "LunarVim/Launch.nvim",
@@ -621,22 +441,8 @@
         "stargazers_count": 2007,
         "created_at": "2022-06-15T23:06:53Z",
         "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 181,
-        "forks_count_sort": 44
-    },
-    {
-        "full_name": "LunarVim/Launch.nvim",
-        "name": "Launch.nvim",
-        "html_url": "https://github.com/LunarVim/Launch.nvim",
-        "description": "\ud83d\ude80 Launch.nvim is modular starter for Neovim.",
-        "updated_at": "2026-01-29T21:02:03Z",
-        "forks_count": 456,
-        "language": "Lua",
-        "stargazers_count": 2007,
-        "created_at": "2022-06-15T23:06:53Z",
-        "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 182,
-        "forks_count_sort": 45
+        "stargazers_count_sort": 146,
+        "forks_count_sort": 31
     },
     {
         "full_name": "hrsh7th/nvim-cmp",
@@ -649,22 +455,8 @@
         "stargazers_count": 9327,
         "created_at": "2021-06-29T18:01:04Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 30,
-        "forks_count_sort": 46
-    },
-    {
-        "full_name": "hrsh7th/nvim-cmp",
-        "name": "nvim-cmp",
-        "html_url": "https://github.com/hrsh7th/nvim-cmp",
-        "description": "A completion plugin for neovim coded in Lua.",
-        "updated_at": "2026-02-15T12:19:59Z",
-        "forks_count": 432,
-        "language": "Lua",
-        "stargazers_count": 9327,
-        "created_at": "2021-06-29T18:01:04Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 31,
-        "forks_count_sort": 47
+        "stargazers_count_sort": 21,
+        "forks_count_sort": 32
     },
     {
         "full_name": "vim-test/vim-test",
@@ -677,8 +469,8 @@
         "stargazers_count": 3137,
         "created_at": "2014-12-15T17:34:43Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 123,
-        "forks_count_sort": 48
+        "stargazers_count_sort": 93,
+        "forks_count_sort": 33
     },
     {
         "full_name": "lervag/vimtex",
@@ -691,22 +483,8 @@
         "stargazers_count": 6167,
         "created_at": "2013-10-05T11:55:11Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 55,
-        "forks_count_sort": 49
-    },
-    {
-        "full_name": "lervag/vimtex",
-        "name": "vimtex",
-        "html_url": "https://github.com/lervag/vimtex",
-        "description": "VimTeX: A modern Vim and neovim filetype plugin for LaTeX files.",
-        "updated_at": "2026-02-14T21:12:37Z",
-        "forks_count": 407,
-        "language": "TeX",
-        "stargazers_count": 6167,
-        "created_at": "2013-10-05T11:55:11Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 56,
-        "forks_count_sort": 50
+        "stargazers_count_sort": 40,
+        "forks_count_sort": 34
     },
     {
         "full_name": "folke/snacks.nvim",
@@ -719,78 +497,50 @@
         "stargazers_count": 7068,
         "created_at": "2024-11-02T22:24:00Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 43,
-        "forks_count_sort": 51
+        "stargazers_count_sort": 32,
+        "forks_count_sort": 35
     },
     {
-        "full_name": "folke/snacks.nvim",
-        "name": "snacks.nvim",
-        "html_url": "https://github.com/folke/snacks.nvim",
-        "description": "\ud83c\udf7f A collection of QoL plugins for Neovim",
-        "updated_at": "2026-02-15T12:28:34Z",
-        "forks_count": 406,
+        "full_name": "nicknisi/dotfiles",
+        "name": "dotfiles",
+        "html_url": "https://github.com/nicknisi/dotfiles",
+        "description": "vim, zsh, git, homebrew, neovim - my whole world",
+        "updated_at": "2026-02-15T01:46:14Z",
+        "forks_count": 374,
+        "language": "GLSL",
+        "stargazers_count": 2938,
+        "created_at": "2012-04-12T04:21:16Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 100,
+        "forks_count_sort": 36
+    },
+    {
+        "full_name": "nix-community/nixvim",
+        "name": "nixvim",
+        "html_url": "https://github.com/nix-community/nixvim",
+        "description": "Configure Neovim with Nix! [maintainers=@GaetanLepage, @traxys, @mattsturgeon, @khaneliman]",
+        "updated_at": "2026-02-15T06:12:04Z",
+        "forks_count": 373,
+        "language": "Nix",
+        "stargazers_count": 2664,
+        "created_at": "2020-12-30T01:08:04Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 110,
+        "forks_count_sort": 37
+    },
+    {
+        "full_name": "olimorris/codecompanion.nvim",
+        "name": "codecompanion.nvim",
+        "html_url": "https://github.com/olimorris/codecompanion.nvim",
+        "description": "\u2728 AI Coding, Vim Style",
+        "updated_at": "2026-02-15T08:21:05Z",
+        "forks_count": 372,
         "language": "Lua",
-        "stargazers_count": 7068,
-        "created_at": "2024-11-02T22:24:00Z",
+        "stargazers_count": 6141,
+        "created_at": "2023-12-27T17:32:51Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 44,
-        "forks_count_sort": 52
-    },
-    {
-        "full_name": "nicknisi/dotfiles",
-        "name": "dotfiles",
-        "html_url": "https://github.com/nicknisi/dotfiles",
-        "description": "vim, zsh, git, homebrew, neovim - my whole world",
-        "updated_at": "2026-02-15T01:46:14Z",
-        "forks_count": 374,
-        "language": "GLSL",
-        "stargazers_count": 2938,
-        "created_at": "2012-04-12T04:21:16Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 129,
-        "forks_count_sort": 53
-    },
-    {
-        "full_name": "nicknisi/dotfiles",
-        "name": "dotfiles",
-        "html_url": "https://github.com/nicknisi/dotfiles",
-        "description": "vim, zsh, git, homebrew, neovim - my whole world",
-        "updated_at": "2026-02-15T01:46:14Z",
-        "forks_count": 374,
-        "language": "GLSL",
-        "stargazers_count": 2938,
-        "created_at": "2012-04-12T04:21:16Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 130,
-        "forks_count_sort": 54
-    },
-    {
-        "full_name": "nix-community/nixvim",
-        "name": "nixvim",
-        "html_url": "https://github.com/nix-community/nixvim",
-        "description": "Configure Neovim with Nix! [maintainers=@GaetanLepage, @traxys, @mattsturgeon, @khaneliman]",
-        "updated_at": "2026-02-15T06:12:04Z",
-        "forks_count": 373,
-        "language": "Nix",
-        "stargazers_count": 2664,
-        "created_at": "2020-12-30T01:08:04Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 139,
-        "forks_count_sort": 55
-    },
-    {
-        "full_name": "nix-community/nixvim",
-        "name": "nixvim",
-        "html_url": "https://github.com/nix-community/nixvim",
-        "description": "Configure Neovim with Nix! [maintainers=@GaetanLepage, @traxys, @mattsturgeon, @khaneliman]",
-        "updated_at": "2026-02-15T06:12:04Z",
-        "forks_count": 373,
-        "language": "Nix",
-        "stargazers_count": 2664,
-        "created_at": "2020-12-30T01:08:04Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 140,
-        "forks_count_sort": 56
+        "stargazers_count_sort": 41,
+        "forks_count_sort": 38
     },
     {
         "full_name": "iamcco/markdown-preview.nvim",
@@ -803,8 +553,8 @@
         "stargazers_count": 7692,
         "created_at": "2018-10-23T18:23:34Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 39,
-        "forks_count_sort": 57
+        "stargazers_count_sort": 28,
+        "forks_count_sort": 39
     },
     {
         "full_name": "neomake/neomake",
@@ -817,22 +567,8 @@
         "stargazers_count": 2674,
         "created_at": "2014-11-12T06:34:12Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 136,
-        "forks_count_sort": 58
-    },
-    {
-        "full_name": "neomake/neomake",
-        "name": "neomake",
-        "html_url": "https://github.com/neomake/neomake",
-        "description": "Asynchronous linting and make framework for Neovim/Vim",
-        "updated_at": "2026-01-19T01:19:23Z",
-        "forks_count": 359,
-        "language": "Vim Script",
-        "stargazers_count": 2674,
-        "created_at": "2014-11-12T06:34:12Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 137,
-        "forks_count_sort": 59
+        "stargazers_count_sort": 108,
+        "forks_count_sort": 40
     },
     {
         "full_name": "NormalNvim/NormalNvim",
@@ -845,22 +581,8 @@
         "stargazers_count": 695,
         "created_at": "2023-05-12T18:07:04Z",
         "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 369,
-        "forks_count_sort": 60
-    },
-    {
-        "full_name": "NormalNvim/NormalNvim",
-        "name": "NormalNvim",
-        "html_url": "https://github.com/NormalNvim/NormalNvim",
-        "description": "A normal Neovim distribution",
-        "updated_at": "2026-02-08T13:28:06Z",
-        "forks_count": 355,
-        "language": "Lua",
-        "stargazers_count": 695,
-        "created_at": "2023-05-12T18:07:04Z",
-        "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 370,
-        "forks_count_sort": 61
+        "stargazers_count_sort": 405,
+        "forks_count_sort": 41
     },
     {
         "full_name": "jackMort/ChatGPT.nvim",
@@ -873,8 +595,8 @@
         "stargazers_count": 4014,
         "created_at": "2022-12-10T17:27:28Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 92,
-        "forks_count_sort": 62
+        "stargazers_count_sort": 67,
+        "forks_count_sort": 42
     },
     {
         "full_name": "mason-org/mason.nvim",
@@ -887,22 +609,8 @@
         "stargazers_count": 10033,
         "created_at": "2022-07-06T18:00:30Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 28,
-        "forks_count_sort": 63
-    },
-    {
-        "full_name": "mason-org/mason.nvim",
-        "name": "mason.nvim",
-        "html_url": "https://github.com/mason-org/mason.nvim",
-        "description": "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.",
-        "updated_at": "2026-02-15T11:57:10Z",
-        "forks_count": 328,
-        "language": "Lua",
-        "stargazers_count": 10033,
-        "created_at": "2022-07-06T18:00:30Z",
-        "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 29,
-        "forks_count_sort": 64
+        "stargazers_count_sort": 20,
+        "forks_count_sort": 43
     },
     {
         "full_name": "saghen/blink.cmp",
@@ -915,22 +623,22 @@
         "stargazers_count": 5936,
         "created_at": "2024-07-31T01:56:33Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 59,
-        "forks_count_sort": 65
+        "stargazers_count_sort": 43,
+        "forks_count_sort": 44
     },
     {
-        "full_name": "saghen/blink.cmp",
-        "name": "blink.cmp",
-        "html_url": "https://github.com/saghen/blink.cmp",
-        "description": "Performant, batteries-included completion plugin for Neovim ",
-        "updated_at": "2026-02-15T12:25:11Z",
-        "forks_count": 326,
+        "full_name": "catppuccin/nvim",
+        "name": "nvim",
+        "html_url": "https://github.com/catppuccin/nvim",
+        "description": "\ud83c\udf68 Soothing pastel theme for (Neo)vim",
+        "updated_at": "2026-02-14T21:46:10Z",
+        "forks_count": 325,
         "language": "Lua",
-        "stargazers_count": 5936,
-        "created_at": "2024-07-31T01:56:33Z",
+        "stargazers_count": 7196,
+        "created_at": "2021-08-18T01:14:49Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 60,
-        "forks_count_sort": 66
+        "stargazers_count_sort": 31,
+        "forks_count_sort": 45
     },
     {
         "full_name": "nvim-lua/plenary.nvim",
@@ -943,22 +651,8 @@
         "stargazers_count": 3384,
         "created_at": "2020-04-11T00:57:00Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 114,
-        "forks_count_sort": 67
-    },
-    {
-        "full_name": "nvim-lua/plenary.nvim",
-        "name": "plenary.nvim",
-        "html_url": "https://github.com/nvim-lua/plenary.nvim",
-        "description": "plenary: full; complete; entire; absolute; unqualified. All the lua functions I don't want to write twice.",
-        "updated_at": "2026-02-15T05:51:31Z",
-        "forks_count": 325,
-        "language": "Lua",
-        "stargazers_count": 3384,
-        "created_at": "2020-04-11T00:57:00Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 115,
-        "forks_count_sort": 68
+        "stargazers_count_sort": 87,
+        "forks_count_sort": 46
     },
     {
         "full_name": "prabirshrestha/vim-lsp",
@@ -971,22 +665,8 @@
         "stargazers_count": 3365,
         "created_at": "2016-11-06T09:31:03Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 118,
-        "forks_count_sort": 69
-    },
-    {
-        "full_name": "prabirshrestha/vim-lsp",
-        "name": "vim-lsp",
-        "html_url": "https://github.com/prabirshrestha/vim-lsp",
-        "description": "async language server protocol plugin for vim and neovim",
-        "updated_at": "2026-02-13T20:33:15Z",
-        "forks_count": 320,
-        "language": "Vim Script",
-        "stargazers_count": 3365,
-        "created_at": "2016-11-06T09:31:03Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 119,
-        "forks_count_sort": 70
+        "stargazers_count_sort": 89,
+        "forks_count_sort": 47
     },
     {
         "full_name": "wincent/command-t",
@@ -999,22 +679,8 @@
         "stargazers_count": 2777,
         "created_at": "2010-03-08T22:11:39Z",
         "license_name": "BSD 2-Clause \"Simplified\" License",
-        "stargazers_count_sort": 133,
-        "forks_count_sort": 71
-    },
-    {
-        "full_name": "wincent/command-t",
-        "name": "command-t",
-        "html_url": "https://github.com/wincent/command-t",
-        "description": "\u2328\ufe0f Fast file navigation for Neovim and Vim",
-        "updated_at": "2026-02-07T17:14:55Z",
-        "forks_count": 320,
-        "language": "Lua",
-        "stargazers_count": 2777,
-        "created_at": "2010-03-08T22:11:39Z",
-        "license_name": "BSD 2-Clause \"Simplified\" License",
-        "stargazers_count_sort": 134,
-        "forks_count_sort": 72
+        "stargazers_count_sort": 105,
+        "forks_count_sort": 48
     },
     {
         "full_name": "NeogitOrg/neogit",
@@ -1027,8 +693,22 @@
         "stargazers_count": 5101,
         "created_at": "2020-06-18T09:14:28Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 74,
-        "forks_count_sort": 73
+        "stargazers_count_sort": 54,
+        "forks_count_sort": 49
+    },
+    {
+        "full_name": "AstroNvim/astrocommunity",
+        "name": "astrocommunity",
+        "html_url": "https://github.com/AstroNvim/astrocommunity",
+        "description": "A community repository of common plugin specifications",
+        "updated_at": "2026-02-14T10:27:02Z",
+        "forks_count": 311,
+        "language": "Lua",
+        "stargazers_count": 1628,
+        "created_at": "2023-02-21T14:55:56Z",
+        "license_name": "GNU General Public License v3.0",
+        "stargazers_count_sort": 182,
+        "forks_count_sort": 50
     },
     {
         "full_name": "nvimdev/lspsaga.nvim",
@@ -1041,22 +721,8 @@
         "stargazers_count": 3747,
         "created_at": "2020-12-16T00:36:44Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 103,
-        "forks_count_sort": 74
-    },
-    {
-        "full_name": "nvimdev/lspsaga.nvim",
-        "name": "lspsaga.nvim",
-        "html_url": "https://github.com/nvimdev/lspsaga.nvim",
-        "description": "improve neovim lsp experience",
-        "updated_at": "2026-02-14T16:43:40Z",
-        "forks_count": 304,
-        "language": "Lua",
-        "stargazers_count": 3747,
-        "created_at": "2020-12-16T00:36:44Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 104,
-        "forks_count_sort": 75
+        "stargazers_count_sort": 77,
+        "forks_count_sort": 51
     },
     {
         "full_name": "mfussenegger/nvim-lint",
@@ -1069,8 +735,8 @@
         "stargazers_count": 2643,
         "created_at": "2021-02-14T11:18:45Z",
         "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 145,
-        "forks_count_sort": 76
+        "stargazers_count_sort": 113,
+        "forks_count_sort": 52
     },
     {
         "full_name": "airblade/vim-gitgutter",
@@ -1083,8 +749,8 @@
         "stargazers_count": 8479,
         "created_at": "2013-02-20T09:54:02Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 33,
-        "forks_count_sort": 77
+        "stargazers_count_sort": 23,
+        "forks_count_sort": 53
     },
     {
         "full_name": "nvim-mini/mini.nvim",
@@ -1097,8 +763,8 @@
         "stargazers_count": 8735,
         "created_at": "2021-06-18T08:43:57Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 32,
-        "forks_count_sort": 78
+        "stargazers_count_sort": 22,
+        "forks_count_sort": 54
     },
     {
         "full_name": "Shougo/deoplete.nvim",
@@ -1111,22 +777,8 @@
         "stargazers_count": 5918,
         "created_at": "2014-11-27T11:58:33Z",
         "license_name": "Other",
-        "stargazers_count_sort": 61,
-        "forks_count_sort": 79
-    },
-    {
-        "full_name": "Shougo/deoplete.nvim",
-        "name": "deoplete.nvim",
-        "html_url": "https://github.com/Shougo/deoplete.nvim",
-        "description": ":stars: Dark powered asynchronous completion framework for neovim/Vim8",
-        "updated_at": "2026-02-13T11:57:00Z",
-        "forks_count": 285,
-        "language": "Python",
-        "stargazers_count": 5918,
-        "created_at": "2014-11-27T11:58:33Z",
-        "license_name": "Other",
-        "stargazers_count_sort": 62,
-        "forks_count_sort": 80
+        "stargazers_count_sort": 44,
+        "forks_count_sort": 55
     },
     {
         "full_name": "nvim-neo-tree/neo-tree.nvim",
@@ -1139,8 +791,8 @@
         "stargazers_count": 5227,
         "created_at": "2021-12-12T13:38:23Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 71,
-        "forks_count_sort": 81
+        "stargazers_count_sort": 52,
+        "forks_count_sort": 56
     },
     {
         "full_name": "stevearc/conform.nvim",
@@ -1153,22 +805,8 @@
         "stargazers_count": 4918,
         "created_at": "2023-08-25T03:31:42Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 76,
-        "forks_count_sort": 82
-    },
-    {
-        "full_name": "stevearc/conform.nvim",
-        "name": "conform.nvim",
-        "html_url": "https://github.com/stevearc/conform.nvim",
-        "description": "Lightweight yet powerful formatter plugin for Neovim",
-        "updated_at": "2026-02-15T11:12:48Z",
-        "forks_count": 276,
-        "language": "Lua",
-        "stargazers_count": 4918,
-        "created_at": "2023-08-25T03:31:42Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 77,
-        "forks_count_sort": 83
+        "stargazers_count_sort": 56,
+        "forks_count_sort": 57
     },
     {
         "full_name": "autozimu/LanguageClient-neovim",
@@ -1181,22 +819,8 @@
         "stargazers_count": 3557,
         "created_at": "2017-02-11T05:04:30Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 107,
-        "forks_count_sort": 84
-    },
-    {
-        "full_name": "autozimu/LanguageClient-neovim",
-        "name": "LanguageClient-neovim",
-        "html_url": "https://github.com/autozimu/LanguageClient-neovim",
-        "description": "Language Server Protocol (LSP) support for vim and neovim.",
-        "updated_at": "2026-02-13T12:00:41Z",
-        "forks_count": 271,
-        "language": "Rust",
-        "stargazers_count": 3557,
-        "created_at": "2017-02-11T05:04:30Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 108,
-        "forks_count_sort": 85
+        "stargazers_count_sort": 81,
+        "forks_count_sort": 58
     },
     {
         "full_name": "wbthomason/packer.nvim",
@@ -1209,8 +833,8 @@
         "stargazers_count": 8107,
         "created_at": "2017-11-19T06:36:02Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 36,
-        "forks_count_sort": 86
+        "stargazers_count_sort": 25,
+        "forks_count_sort": 59
     },
     {
         "full_name": "L3MON4D3/LuaSnip",
@@ -1223,22 +847,8 @@
         "stargazers_count": 4273,
         "created_at": "2021-03-19T13:27:06Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 83,
-        "forks_count_sort": 87
-    },
-    {
-        "full_name": "L3MON4D3/LuaSnip",
-        "name": "LuaSnip",
-        "html_url": "https://github.com/L3MON4D3/LuaSnip",
-        "description": "Snippet Engine for Neovim written in Lua.",
-        "updated_at": "2026-02-15T08:20:17Z",
-        "forks_count": 265,
-        "language": "Lua",
-        "stargazers_count": 4273,
-        "created_at": "2021-03-19T13:27:06Z",
-        "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 84,
-        "forks_count_sort": 88
+        "stargazers_count_sort": 60,
+        "forks_count_sort": 60
     },
     {
         "full_name": "lewis6991/gitsigns.nvim",
@@ -1251,8 +861,8 @@
         "stargazers_count": 6563,
         "created_at": "2020-10-18T10:14:43Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 51,
-        "forks_count_sort": 89
+        "stargazers_count_sort": 37,
+        "forks_count_sort": 61
     },
     {
         "full_name": "vscode-neovim/vscode-neovim",
@@ -1265,22 +875,22 @@
         "stargazers_count": 7589,
         "created_at": "2019-10-31T00:46:23Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 40,
-        "forks_count_sort": 90
+        "stargazers_count_sort": 29,
+        "forks_count_sort": 62
     },
     {
-        "full_name": "vscode-neovim/vscode-neovim",
-        "name": "vscode-neovim",
-        "html_url": "https://github.com/vscode-neovim/vscode-neovim",
-        "description": "Vim mode for VSCode, powered by Neovim",
-        "updated_at": "2026-02-15T07:10:08Z",
-        "forks_count": 256,
-        "language": "TypeScript",
-        "stargazers_count": 7589,
-        "created_at": "2019-10-31T00:46:23Z",
+        "full_name": "liuchengxu/space-vim",
+        "name": "space-vim",
+        "html_url": "https://github.com/liuchengxu/space-vim",
+        "description": ":four_leaf_clover: Lean & mean spacemacs-ish Vim distribution",
+        "updated_at": "2026-02-14T10:11:37Z",
+        "forks_count": 251,
+        "language": "Vim Script",
+        "stargazers_count": 2855,
+        "created_at": "2016-10-23T13:09:40Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 41,
-        "forks_count_sort": 91
+        "stargazers_count_sort": 103,
+        "forks_count_sort": 63
     },
     {
         "full_name": "mfussenegger/nvim-dap",
@@ -1293,22 +903,8 @@
         "stargazers_count": 6945,
         "created_at": "2020-04-14T14:56:26Z",
         "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 45,
-        "forks_count_sort": 92
-    },
-    {
-        "full_name": "mfussenegger/nvim-dap",
-        "name": "nvim-dap",
-        "html_url": "https://github.com/mfussenegger/nvim-dap",
-        "description": "Debug Adapter Protocol client implementation for Neovim",
-        "updated_at": "2026-02-15T12:16:45Z",
-        "forks_count": 250,
-        "language": "Lua",
-        "stargazers_count": 6945,
-        "created_at": "2020-04-14T14:56:26Z",
-        "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 46,
-        "forks_count_sort": 93
+        "stargazers_count_sort": 33,
+        "forks_count_sort": 64
     },
     {
         "full_name": "nvim-treesitter/nvim-treesitter-textobjects",
@@ -1321,8 +917,8 @@
         "stargazers_count": 2670,
         "created_at": "2020-09-20T14:53:24Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 138,
-        "forks_count_sort": 94
+        "stargazers_count_sort": 109,
+        "forks_count_sort": 65
     },
     {
         "full_name": "epwalsh/obsidian.nvim",
@@ -1335,22 +931,8 @@
         "stargazers_count": 5901,
         "created_at": "2022-07-31T17:37:11Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 64,
-        "forks_count_sort": 95
-    },
-    {
-        "full_name": "epwalsh/obsidian.nvim",
-        "name": "obsidian.nvim",
-        "html_url": "https://github.com/epwalsh/obsidian.nvim",
-        "description": "Obsidian \ud83e\udd1d Neovim",
-        "updated_at": "2026-02-15T11:13:15Z",
-        "forks_count": 247,
-        "language": "Lua",
-        "stargazers_count": 5901,
-        "created_at": "2022-07-31T17:37:11Z",
-        "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 65,
-        "forks_count_sort": 96
+        "stargazers_count_sort": 46,
+        "forks_count_sort": 66
     },
     {
         "full_name": "norcalli/nvim-base16.lua",
@@ -1363,8 +945,8 @@
         "stargazers_count": 79,
         "created_at": "2019-10-04T23:27:52Z",
         "license_name": "Other",
-        "stargazers_count_sort": 905,
-        "forks_count_sort": 97
+        "stargazers_count_sort": 1563,
+        "forks_count_sort": 67
     },
     {
         "full_name": "folke/which-key.nvim",
@@ -1377,7 +959,425 @@
         "stargazers_count": 6939,
         "created_at": "2021-04-28T10:13:18Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 47,
+        "stargazers_count_sort": 34,
+        "forks_count_sort": 68
+    },
+    {
+        "full_name": "ChristianChiarulli/nvim",
+        "name": "nvim",
+        "html_url": "https://github.com/ChristianChiarulli/nvim",
+        "description": "My neovim config",
+        "updated_at": "2026-02-08T02:01:56Z",
+        "forks_count": 241,
+        "language": "Lua",
+        "stargazers_count": 971,
+        "created_at": "2021-12-15T08:12:25Z",
+        "license_name": "GNU General Public License v3.0",
+        "stargazers_count_sort": 301,
+        "forks_count_sort": 69
+    },
+    {
+        "full_name": "ellisonleao/gruvbox.nvim",
+        "name": "gruvbox.nvim",
+        "html_url": "https://github.com/ellisonleao/gruvbox.nvim",
+        "description": "Lua port of the most famous vim colorscheme",
+        "updated_at": "2026-02-15T12:52:43Z",
+        "forks_count": 240,
+        "language": "Lua",
+        "stargazers_count": 2465,
+        "created_at": "2020-11-02T05:27:15Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 121,
+        "forks_count_sort": 70
+    },
+    {
+        "full_name": "nvim-neorg/neorg",
+        "name": "neorg",
+        "html_url": "https://github.com/nvim-neorg/neorg",
+        "description": "Modernity meets insane extensibility. The future of organizing your life in Neovim.",
+        "updated_at": "2026-02-15T00:39:27Z",
+        "forks_count": 236,
+        "language": "Lua",
+        "stargazers_count": 7215,
+        "created_at": "2021-04-11T17:35:43Z",
+        "license_name": "GNU General Public License v3.0",
+        "stargazers_count_sort": 30,
+        "forks_count_sort": 71
+    },
+    {
+        "full_name": "ibhagwan/fzf-lua",
+        "name": "fzf-lua",
+        "html_url": "https://github.com/ibhagwan/fzf-lua",
+        "description": "Improved fzf.vim written in lua",
+        "updated_at": "2026-02-15T04:41:22Z",
+        "forks_count": 233,
+        "language": "Lua",
+        "stargazers_count": 4064,
+        "created_at": "2021-07-11T03:16:56Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 65,
+        "forks_count_sort": 72
+    },
+    {
+        "full_name": "awesome-streamers/awesome-streamerrc",
+        "name": "awesome-streamerrc",
+        "html_url": "https://github.com/awesome-streamers/awesome-streamerrc",
+        "description": "Dotfiles for various streamers on Twitch.",
+        "updated_at": "2026-02-04T23:43:09Z",
+        "forks_count": 233,
+        "language": "Lua",
+        "stargazers_count": 980,
+        "created_at": "2020-03-04T18:47:12Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 295,
+        "forks_count_sort": 73
+    },
+    {
+        "full_name": "akinsho/bufferline.nvim",
+        "name": "bufferline.nvim",
+        "html_url": "https://github.com/akinsho/bufferline.nvim",
+        "description": "A snazzy bufferline for Neovim",
+        "updated_at": "2026-02-15T05:51:08Z",
+        "forks_count": 232,
+        "language": "Lua",
+        "stargazers_count": 4236,
+        "created_at": "2020-05-07T11:12:17Z",
+        "license_name": "GNU General Public License v3.0",
+        "stargazers_count_sort": 62,
+        "forks_count_sort": 74
+    },
+    {
+        "full_name": "sonph/onehalf",
+        "name": "onehalf",
+        "html_url": "https://github.com/sonph/onehalf",
+        "description": "Clean, vibrant and pleasing color schemes for Vim, Sublime Text, iTerm, gnome-terminal and more.",
+        "updated_at": "2026-02-11T17:51:26Z",
+        "forks_count": 231,
+        "language": "Vim script",
+        "stargazers_count": 1886,
+        "created_at": "2016-05-16T17:09:34Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 163,
+        "forks_count_sort": 75
+    },
+    {
+        "full_name": "qvacua/vimr",
+        "name": "vimr",
+        "html_url": "https://github.com/qvacua/vimr",
+        "description": "VimR \u2014 Neovim GUI for macOS in Swift",
+        "updated_at": "2026-02-14T10:23:44Z",
+        "forks_count": 226,
+        "language": "Swift",
+        "stargazers_count": 6928,
+        "created_at": "2014-02-28T21:31:38Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 35,
+        "forks_count_sort": 76
+    },
+    {
+        "full_name": "nvim-treesitter/nvim-treesitter-context",
+        "name": "nvim-treesitter-context",
+        "html_url": "https://github.com/nvim-treesitter/nvim-treesitter-context",
+        "description": "Show code context",
+        "updated_at": "2026-02-15T05:51:28Z",
+        "forks_count": 223,
+        "language": "Janet",
+        "stargazers_count": 3117,
+        "created_at": "2020-10-19T09:32:33Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 94,
+        "forks_count_sort": 77
+    },
+    {
+        "full_name": "nvim-tree/nvim-web-devicons",
+        "name": "nvim-web-devicons",
+        "html_url": "https://github.com/nvim-tree/nvim-web-devicons",
+        "description": "Provides Nerd Font icons (glyphs) for use by neovim plugins",
+        "updated_at": "2026-02-15T05:51:29Z",
+        "forks_count": 222,
+        "language": "Lua",
+        "stargazers_count": 2608,
+        "created_at": "2020-05-29T13:37:01Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 116,
+        "forks_count_sort": 78
+    },
+    {
+        "full_name": "mason-org/mason-lspconfig.nvim",
+        "name": "mason-lspconfig.nvim",
+        "html_url": "https://github.com/mason-org/mason-lspconfig.nvim",
+        "description": "Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim.",
+        "updated_at": "2026-02-15T05:51:18Z",
+        "forks_count": 220,
+        "language": "Lua",
+        "stargazers_count": 3814,
+        "created_at": "2022-07-21T11:57:05Z",
+        "license_name": "Apache License 2.0",
+        "stargazers_count_sort": 74,
+        "forks_count_sort": 79
+    },
+    {
+        "full_name": "rebelot/kanagawa.nvim",
+        "name": "kanagawa.nvim",
+        "html_url": "https://github.com/rebelot/kanagawa.nvim",
+        "description": "NeoVim dark colorscheme inspired by the colors of the famous painting by Katsushika Hokusai.",
+        "updated_at": "2026-02-15T12:30:23Z",
+        "forks_count": 219,
+        "language": "Lua",
+        "stargazers_count": 5912,
+        "created_at": "2021-12-20T18:51:22Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 45,
+        "forks_count_sort": 80
+    },
+    {
+        "full_name": "Shougo/denite.nvim",
+        "name": "denite.nvim",
+        "html_url": "https://github.com/Shougo/denite.nvim",
+        "description": ":dragon: Dark powered asynchronous unite all interfaces for Neovim/Vim8",
+        "updated_at": "2026-01-30T06:56:11Z",
+        "forks_count": 210,
+        "language": "Python",
+        "stargazers_count": 2062,
+        "created_at": "2016-02-15T23:08:55Z",
+        "license_name": "Other",
+        "stargazers_count_sort": 140,
+        "forks_count_sort": 81
+    },
+    {
+        "full_name": "editor-bootstrap/vim-bootstrap",
+        "name": "vim-bootstrap",
+        "html_url": "https://github.com/editor-bootstrap/vim-bootstrap",
+        "description": "Vim Bootstrap is a generator that provides a simple method of generating a configuration for vim / neovim.",
+        "updated_at": "2026-02-12T22:15:13Z",
+        "forks_count": 209,
+        "language": "HTML",
+        "stargazers_count": 2094,
+        "created_at": "2014-05-27T02:19:52Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 136,
+        "forks_count_sort": 82
+    },
+    {
+        "full_name": "folke/trouble.nvim",
+        "name": "trouble.nvim",
+        "html_url": "https://github.com/folke/trouble.nvim",
+        "description": "\ud83d\udea6 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing.",
+        "updated_at": "2026-02-15T13:14:37Z",
+        "forks_count": 207,
+        "language": "Lua",
+        "stargazers_count": 6672,
+        "created_at": "2021-04-21T22:12:24Z",
+        "license_name": "Apache License 2.0",
+        "stargazers_count_sort": 36,
+        "forks_count_sort": 83
+    },
+    {
+        "full_name": "pwntester/octo.nvim",
+        "name": "octo.nvim",
+        "html_url": "https://github.com/pwntester/octo.nvim",
+        "description": "Edit and review GitHub issues and pull requests from the comfort of your favorite editor",
+        "updated_at": "2026-02-15T12:09:44Z",
+        "forks_count": 207,
+        "language": "Lua",
+        "stargazers_count": 3107,
+        "created_at": "2020-09-26T21:32:31Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 95,
+        "forks_count_sort": 84
+    },
+    {
+        "full_name": "stevearc/oil.nvim",
+        "name": "oil.nvim",
+        "html_url": "https://github.com/stevearc/oil.nvim",
+        "description": "Neovim file explorer: edit your filesystem like a buffer",
+        "updated_at": "2026-02-15T10:29:37Z",
+        "forks_count": 204,
+        "language": "Lua",
+        "stargazers_count": 6248,
+        "created_at": "2022-12-15T07:35:18Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 38,
+        "forks_count_sort": 85
+    },
+    {
+        "full_name": "nvimdev/dashboard-nvim",
+        "name": "dashboard-nvim",
+        "html_url": "https://github.com/nvimdev/dashboard-nvim",
+        "description": "vim dashboard",
+        "updated_at": "2026-02-15T05:51:12Z",
+        "forks_count": 202,
+        "language": "Lua",
+        "stargazers_count": 2777,
+        "created_at": "2020-06-07T07:00:58Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 106,
+        "forks_count_sort": 86
+    },
+    {
+        "full_name": "Optixal/neovim-init.vim",
+        "name": "neovim-init.vim",
+        "html_url": "https://github.com/Optixal/neovim-init.vim",
+        "description": ":izakaya_lantern: A hybrid Neovim configuration for productive developers who want a functional yet aesthetic Vim experience :izakaya_lantern:",
+        "updated_at": "2026-02-13T16:07:10Z",
+        "forks_count": 201,
+        "language": "Lua",
+        "stargazers_count": 1011,
+        "created_at": "2017-10-14T10:28:43Z",
+        "stargazers_count_sort": 287,
+        "forks_count_sort": 87
+    },
+    {
+        "full_name": "Exafunction/windsurf.vim",
+        "name": "windsurf.vim",
+        "html_url": "https://github.com/Exafunction/windsurf.vim",
+        "description": "Free, ultrafast Copilot alternative for Vim and Neovim",
+        "updated_at": "2026-02-14T10:14:03Z",
+        "forks_count": 200,
+        "language": "Vim Script",
+        "stargazers_count": 5106,
+        "created_at": "2023-01-03T19:24:30Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 53,
+        "forks_count_sort": 88
+    },
+    {
+        "full_name": "akinsho/toggleterm.nvim",
+        "name": "toggleterm.nvim",
+        "html_url": "https://github.com/akinsho/toggleterm.nvim",
+        "description": "A neovim lua plugin to help easily manage multiple terminal windows",
+        "updated_at": "2026-02-15T13:11:22Z",
+        "forks_count": 198,
+        "language": "Lua",
+        "stargazers_count": 5370,
+        "created_at": "2020-08-17T17:33:39Z",
+        "license_name": "GNU General Public License v3.0",
+        "stargazers_count_sort": 50,
+        "forks_count_sort": 89
+    },
+    {
+        "full_name": "NotAShelf/nvf",
+        "name": "nvf",
+        "html_url": "https://github.com/NotAShelf/nvf",
+        "description": "Modular, extensible and distro-agnostic Neovim configuration framework for Nix/NixOS",
+        "updated_at": "2026-02-15T09:42:21Z",
+        "forks_count": 195,
+        "language": "Nix",
+        "stargazers_count": 1374,
+        "created_at": "2023-02-01T17:13:58Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 213,
+        "forks_count_sort": 90
+    },
+    {
+        "full_name": "Shougo/dein.vim",
+        "name": "dein.vim",
+        "html_url": "https://github.com/Shougo/dein.vim",
+        "description": ":zap: Dark powered Vim/Neovim plugin manager",
+        "updated_at": "2026-02-13T11:57:01Z",
+        "forks_count": 193,
+        "language": "Vim Script",
+        "stargazers_count": 3439,
+        "created_at": "2016-01-01T12:12:50Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 86,
+        "forks_count_sort": 91
+    },
+    {
+        "full_name": "nickjj/dotfiles",
+        "name": "dotfiles",
+        "html_url": "https://github.com/nickjj/dotfiles",
+        "description": "Set up a developer friendly Arch Linux system in minutes. Also supports WSL 2, Debian, Ubuntu and macOS for CLI tools!",
+        "updated_at": "2026-02-15T12:46:51Z",
+        "forks_count": 193,
+        "language": "Shell",
+        "stargazers_count": 1084,
+        "created_at": "2018-12-18T13:53:57Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 271,
+        "forks_count_sort": 92
+    },
+    {
+        "full_name": "nshen/learn-neovim-lua",
+        "name": "learn-neovim-lua",
+        "html_url": "https://github.com/nshen/learn-neovim-lua",
+        "description": "Neovim \u914d\u7f6e\u5b9e\u6218\uff1a\u4ece 0 \u5230 1 \u6253\u9020\u81ea\u5df1\u7684 IDE",
+        "updated_at": "2026-02-14T10:38:30Z",
+        "forks_count": 190,
+        "language": "Lua",
+        "stargazers_count": 1312,
+        "created_at": "2021-11-02T06:55:49Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 223,
+        "forks_count_sort": 93
+    },
+    {
+        "full_name": "Yggdroot/LeaderF",
+        "name": "LeaderF",
+        "html_url": "https://github.com/Yggdroot/LeaderF",
+        "description": "An efficient fuzzy finder that helps to locate files, buffers, mrus, gtags, etc. on the fly for both vim and neovim.",
+        "updated_at": "2026-02-15T02:24:23Z",
+        "forks_count": 187,
+        "language": "Python",
+        "stargazers_count": 2190,
+        "created_at": "2013-12-30T05:43:36Z",
+        "license_name": "Apache License 2.0",
+        "stargazers_count_sort": 132,
+        "forks_count_sort": 94
+    },
+    {
+        "full_name": "mhinz/vim-startify",
+        "name": "vim-startify",
+        "html_url": "https://github.com/mhinz/vim-startify",
+        "description": ":link: The fancy start screen for Vim.",
+        "updated_at": "2026-02-12T09:15:06Z",
+        "forks_count": 185,
+        "language": "Vim Script",
+        "stargazers_count": 5387,
+        "created_at": "2013-04-23T14:40:30Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 49,
+        "forks_count_sort": 95
+    },
+    {
+        "full_name": "sbdchd/neoformat",
+        "name": "neoformat",
+        "html_url": "https://github.com/sbdchd/neoformat",
+        "description": ":sparkles: A (Neo)vim plugin for formatting code.",
+        "updated_at": "2026-02-13T00:55:16Z",
+        "forks_count": 185,
+        "language": "Vim Script",
+        "stargazers_count": 2052,
+        "created_at": "2016-03-15T03:50:00Z",
+        "license_name": "BSD 2-Clause \"Simplified\" License",
+        "stargazers_count_sort": 142,
+        "forks_count_sort": 96
+    },
+    {
+        "full_name": "rafi/awesome-vim-colorschemes",
+        "name": "awesome-vim-colorschemes",
+        "html_url": "https://github.com/rafi/awesome-vim-colorschemes",
+        "description": "Collection of awesome color schemes for Neo/vim, merged for quick use.",
+        "updated_at": "2026-02-11T23:54:02Z",
+        "forks_count": 184,
+        "language": "Vim Script",
+        "stargazers_count": 2896,
+        "created_at": "2015-08-08T18:39:14Z",
+        "stargazers_count_sort": 101,
+        "forks_count_sort": 97
+    },
+    {
+        "full_name": "mayTermux/myTermux",
+        "name": "myTermux",
+        "html_url": "https://github.com/mayTermux/myTermux",
+        "description": "Make your Termux look better",
+        "updated_at": "2026-02-14T06:39:22Z",
+        "forks_count": 182,
+        "language": "Shell",
+        "stargazers_count": 1181,
+        "created_at": "2021-01-23T22:49:11Z",
+        "license_name": "GNU General Public License v3.0",
+        "stargazers_count_sort": 249,
         "forks_count_sort": 98
     }
 ]
