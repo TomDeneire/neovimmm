@@ -2,4 +2,5 @@ cd /home/tdeneire/projects/code/js/neovimmm || exit
 uv run harvest.py
 git add .
 git commit -m "build"
-git push
+TOKEN=$(cat secretkey)
+git push https://TomDeneire:${TOKEN}@github.com/TomDeneire/neovimmm.git main
