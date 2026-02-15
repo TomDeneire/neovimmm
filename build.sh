@@ -1,3 +1,4 @@
+cd "$(dirname "$0")" || exit
 uv run harvest.py
 git add .
 git commit -m "build"
