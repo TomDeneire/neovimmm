@@ -9,10 +9,22 @@ import json
 # Multiple queries to bypass the 1,000-result-per-query GitHub API limit
 SEARCH_BASE = 'https://api.github.com/search/repositories'
 QUERIES = [
-    'neovim',  # keyword match (current approach)
-    'nvim+in:name',  # repos with nvim in name (AstroNvim, NvChad, etc.)
-    'topic:neovim',  # repos tagged with neovim topic
-    'topic:neovim-plugin',  # repos tagged with neovim-plugin topic
+    'neovim',
+    '.nvim+in:name',
+    'topic:neovim',
+    'topic:neovim-plugin',
+    'topic:nvim',
+    'topic:nvim-plugin',
+    'topic:neovim-lua',
+    'topic:nvim-lua',
+    'topic:neovim-colorscheme',
+    'topic:neovim-theme',
+    'topic:neovim-lua-plugin',
+    'topic:neovim-plugins',
+    'topic:nvim-plugins',
+    'topic:neovim-plugin-lua',
+    'topic:neovim-conf',
+    'topic:neovim-setup',
 ]
 
 SECRET_KEY = ''
