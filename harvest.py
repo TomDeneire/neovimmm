@@ -136,7 +136,7 @@ for query in QUERIES:
     pages = math.ceil(total / 100)
     print(f'Total: {total}, pages: {pages}', file=sys.stderr)
 
-    for i in range(0, pages):
+    for i in range(1, pages + 1):
         url = f'{SEARCH_BASE}?q={query}&page={i}&per_page=100'
         page_result = get_page(url)
         if page_result == {}:
