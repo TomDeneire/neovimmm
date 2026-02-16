@@ -185,7 +185,7 @@ for count_type in ['stargazers_count', 'forks_count', 'created_at']:
 
     p = count_type.replace('_count', '') + '.json'
     with open(p, 'w') as writer:
-        json.dump(result[:99], writer, indent=4)
+        json.dump(result[:100], writer, indent=4)
 
 with open('index.html', 'r') as reader:
     index = reader.read()
