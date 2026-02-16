@@ -93,6 +93,38 @@ def extract_repo(item):
     return repo
 
 
+CONFIG_NAME_PATTERNS = re.compile(
+    r'(dotfiles|\.config|nvimrc|neovimrc|nvim[-_]?config|neovim[-_]?config|my[-_]?nvim|my[-_]?neovim)',
+    re.IGNORECASE,
+)
+CONFIG_TOPICS = {
+    'dotfiles',
+    'neovim-config',
+    'neovim-configuration',
+    'nvim-config',
+    'nvim-configuration',
+    'neovim-dotfiles',
+    'nvim-dotfiles',
+    'nvim-configs',
+    'nvim-lua-config',
+    'neovim-lua-config',
+    'dotfile',
+    'rice',
+    'ricing',
+}
+
+
+def is_config_repo(item):
+    """Heuristic to skip personal config/dotfile repos."""
+    if not item.get('topics'):
+        return True
+    if CONFIG_NAME_PATTERNS.search(item['name']):
+        return True
+    if CONFIG_TOPICS & set(item.get('topics', [])):
+        return True
+    return False
+
+
 seen = set()
 result = []
 
@@ -115,6 +147,8 @@ for query in QUERIES:
             if item['archived']:
                 continue
             if item['disabled']:
+                continue
+            if is_config_repo(item):
                 continue
             full_name = item['full_name']
             if full_name in seen:
