@@ -1,18 +1,20 @@
 #!/bin/bash
-# Move to script directory
-cd "$(dirname "$0")" || exit
 
-# 1. Use absolute path for uv (Check 'which uv' to verify this path)
-# 2. Add logging to see errors
-/root/.local/bin/uv run harvest.py >> build.log 2>&1
+# 1. Force the environment variables Git and uv need
+export HOME=/root
+export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/.local/bin
 
+# 2. Move to the correct directory
+cd /root/neovimmm || exit
+
+# 3. Run harvest.py using the full path to uv for extra safety
+/root/.local/bin/uv run harvest.py >> /root/neovimmm/build.log 2>&1
+
+# 4. Standard Git workflow
 git add .
+# We use '|| true' so the script doesn't exit if there are no changes
+git commit -m "build $(date +'%Y-%m-%d %H:%M')" || true
 
-# Avoid 'nothing to commit' errors stopping the script
-git commit -m "build $(date)" || echo "Nothing to commit"
-
-# Strip whitespace from token
-TOKEN=$(tr -d '\n\r ' < secretkey)
-
-# Push and capture output
-git push "https://TomDeneire:${TOKEN}@github.com/TomDeneire/neovimmm.git" main >> build.log 2>&1
+# 5. Token-based push
+TOKEN=$(tr -d '\n\r ' < /root/neovimmm/secretkey)
+git push "https://TomDeneire:${TOKEN}@github.com/TomDeneire/neovimmm.git" main >> /root/neovimmm/build.log 2>&1
