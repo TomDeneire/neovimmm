@@ -139,3 +139,17 @@ Total: 59, pages: 1
 https://api.github.com/search/repositories?q=topic:neovim-setup&page=1&per_page=100
 
 Total unique repos: 3004
+
+--- Query: neovim ---
+Total: 1000, pages: 10
+https://api.github.com/search/repositories?q=neovim&page=1&per_page=100
+https://api.github.com/search/repositories?q=neovim&page=2&per_page=100
+https://api.github.com/search/repositories?q=neovim&page=3&per_page=100
+https://api.github.com/search/repositories?q=neovim&page=4&per_page=100
+https://api.github.com/search/repositories?q=neovim&page=5&per_page=100
+https://api.github.com/search/repositories?q=neovim&page=6&per_page=100
+https://api.github.com/search/repositories?q=neovim&page=7&per_page=100
+Traceback (most recent call last):
+  File "/home/tdeneire/projects/code/python/neovimmm/harvest.py", line 160, in <module>
+    time.sleep(2.5)
+KeyboardInterrupt
