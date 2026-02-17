@@ -8,9 +8,9 @@ import json
 
 # Multiple queries to bypass the 1,000-result-per-query GitHub API limit
 SEARCH_BASE = 'https://api.github.com/search/repositories'
+SPLIT_THRESHOLD = 950   # conservative; GitHub's total_count can be approximate
+MAX_SPLIT_DEPTH = 10    # safety guard against runaway recursion
 QUERIES = [
-    'neovim',
-    '.nvim+in:name',
     'topic:neovim',
     'topic:neovim-plugin',
     'topic:nvim',
@@ -23,8 +23,6 @@ QUERIES = [
     'topic:neovim-plugins',
     'topic:nvim-plugins',
     'topic:neovim-plugin-lua',
-    'topic:neovim-conf',
-    'topic:neovim-setup',
 ]
 
 SECRET_KEY = ''
@@ -40,8 +38,12 @@ HEADERS = {
 
 def get_total(query):
     url = f'{SEARCH_BASE}?q={query}'
-    total_query = requests.get(url, headers=HEADERS).json()
-    return total_query['total_count']
+    try:
+        total_query = requests.get(url, headers=HEADERS).json()
+        return total_query['total_count']
+    except Exception as e:
+        print(f'Error getting total for {query}: {e}', file=sys.stderr)
+        return 0
 
 
 def get_page(url):
@@ -125,17 +127,11 @@ def is_config_repo(item):
     return False
 
 
-seen = set()
-result = []
-
-for query in QUERIES:
-    print(f'\n--- Query: {query} ---', file=sys.stderr)
-    total = get_total(query)
-    # GitHub caps search results at 1,000
+def fetch_pages(query, total, seen):
+    """Fetch all pages for a query that has <= 1000 results."""
     total = min(total, 1000)
     pages = math.ceil(total / 100)
-    print(f'Total: {total}, pages: {pages}', file=sys.stderr)
-
+    repos = []
     for i in range(1, pages + 1):
         url = f'{SEARCH_BASE}?q={query}&page={i}&per_page=100'
         page_result = get_page(url)
@@ -154,10 +150,66 @@ for query in QUERIES:
             if full_name in seen:
                 continue
             seen.add(full_name)
-            result.append(extract_repo(item))
+            repos.append(extract_repo(item))
         print(url, file=sys.stderr)
         # Respect GitHub search API rate limit (30 requests/minute)
         time.sleep(2.5)
+    return repos
+
+
+def fetch_with_date_split(query, start, end, seen, depth=0):
+    """Recursively split a query by date range until each sub-range has <= SPLIT_THRESHOLD results."""
+    date_query = f'{query}+created:{start}..{end}'
+    time.sleep(2.5)
+    total = get_total(date_query)
+    print(
+        f'{"  " * depth}Date split: {start}..{end} -> {total} results',
+        file=sys.stderr,
+    )
+
+    if total <= SPLIT_THRESHOLD or depth >= MAX_SPLIT_DEPTH:
+        if depth >= MAX_SPLIT_DEPTH and total > SPLIT_THRESHOLD:
+            print(
+                f'{"  " * depth}WARNING: max depth reached with {total} results, some may be lost',
+                file=sys.stderr,
+            )
+        return fetch_pages(date_query, total, seen)
+
+    # Bisect the date range
+    start_date = datetime.date.fromisoformat(start)
+    end_date = datetime.date.fromisoformat(end)
+    mid_date = start_date + (end_date - start_date) // 2
+
+    repos = []
+    repos += fetch_with_date_split(
+        query, start, mid_date.isoformat(), seen, depth + 1
+    )
+    repos += fetch_with_date_split(
+        query, (mid_date + datetime.timedelta(days=1)).isoformat(), end, seen, depth + 1
+    )
+    return repos
+
+
+def fetch_query_results(query, seen):
+    """Orchestrate fetching results for a single query, splitting by date if needed."""
+    print(f'\n--- Query: {query} ---', file=sys.stderr)
+    total = get_total(query)
+    print(f'Total: {total}', file=sys.stderr)
+
+    if total <= SPLIT_THRESHOLD:
+        pages = math.ceil(total / 100)
+        print(f'Pages: {pages}', file=sys.stderr)
+        return fetch_pages(query, total, seen)
+
+    print(f'Exceeds threshold ({SPLIT_THRESHOLD}), splitting by date...', file=sys.stderr)
+    today = datetime.date.today().isoformat()
+    return fetch_with_date_split(query, '2014-01-01', today, seen)
+
+
+seen = set()
+result = []
+for query in QUERIES:
+    result += fetch_query_results(query, seen)
 
 print(f'\nTotal unique repos: {len(result)}', file=sys.stderr)
 
