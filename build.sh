@@ -8,7 +8,7 @@ export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/.
 cd /root/neovimmm || exit
 
 # 3. Run harvest.py using the full path to uv for extra safety
-/root/.local/bin/uv run harvest.py >> /root/neovimmm/build.log 2>&1
+/root/.local/bin/uv run harvest.py > /root/neovimmm/build.log 2>&1
 
 # 4. Standard Git workflow
 git add .
