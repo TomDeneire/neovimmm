@@ -5,6 +5,7 @@ import sys
 import time
 import requests
 import json
+from zoneinfo import ZoneInfo
 
 # Multiple queries to bypass the 1,000-result-per-query GitHub API limit
 SEARCH_BASE = 'https://api.github.com/search/repositories'
@@ -185,7 +186,11 @@ def fetch_with_date_split(query, start, end, seen, depth=0):
         query, start, mid_date.isoformat(), seen, depth + 1
     )
     repos += fetch_with_date_split(
-        query, (mid_date + datetime.timedelta(days=1)).isoformat(), end, seen, depth + 1
+        query,
+        (mid_date + datetime.timedelta(days=1)).isoformat(),
+        end,
+        seen,
+        depth + 1,
     )
     return repos
 
@@ -201,7 +206,10 @@ def fetch_query_results(query, seen):
         print(f'Pages: {pages}', file=sys.stderr)
         return fetch_pages(query, total, seen)
 
-    print(f'Exceeds threshold ({SPLIT_THRESHOLD}), splitting by date...', file=sys.stderr)
+    print(
+        f'Exceeds threshold ({SPLIT_THRESHOLD}), splitting by date...',
+        file=sys.stderr,
+    )
     today = datetime.date.today().isoformat()
     return fetch_with_date_split(query, '2014-01-01', today, seen)
 
@@ -241,10 +249,11 @@ for count_type in ['stargazers_count', 'forks_count', 'created_at']:
 
 with open('index.html', 'r') as reader:
     index = reader.read()
-    date = str(datetime.datetime.now()).split(' ')[0]
+    brussels_now = datetime.datetime.now(ZoneInfo('Europe/Brussels'))
+    formatted_time = brussels_now.strftime('%Y-%m-%d %H:%M:%S')
     index = re.sub(
         r'<span> :: Last update.*?</span>',
-        f'<span> :: Last update {date}</span>',
+        f'<span> :: Last update {formatted_time} (Europe/Brussels)</span>',
         index,
     )
     # Update repo count
