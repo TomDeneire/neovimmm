@@ -1,6 +1,6 @@
 # neovimmm
 
-![screenshot.png](screenshot.png)
+![neovimmm.png](neovimmm.png)
 
 Every Neovim user knows about the hunt for the perfect plugin. Of course, exploring the plugin ecosystem is a lot of fun, but it can also be a rabbit hole that is not only time-consuming, but sometimes also frustrating. There are so many plugins out there, but how to find the one that is right for you and is tried and tested by the community?
 
