@@ -1,5 +1,95 @@
 [
     {
+        "full_name": "komuggi/daihon",
+        "name": "daihon",
+        "html_url": "https://github.com/komuggi/daihon",
+        "description": "\u97f3\u58f0\u4f5c\u54c1\u306e\u53f0\u672c\u3092 nvim \u3067\u66f8\u3044\u3066\u3001\u7e26\u66f8\u304d\u306e PDF \u306b\u3059\u308b\u30d7\u30e9\u30b0\u30a4\u30f3",
+        "updated_at": "2026-10-07T16:31:20Z",
+        "forks_count": "",
+        "language": "Lua",
+        "stargazers_count": "",
+        "created_at": "2026-10-07T16:24:12Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 10445,
+        "forks_count_sort": 10446,
+        "created_at_sort": 0
+    },
+    {
+        "full_name": "StefanBartl/terminal.nvim",
+        "name": "terminal.nvim",
+        "html_url": "https://github.com/StefanBartl/terminal.nvim",
+        "description": "Named, per-project terminals in Neovim: toggle a float/split/tab, send text, run commands with quoted argv. Backends: native (WezTerm/tmux planned).",
+        "updated_at": "2026-10-07T16:23:38Z",
+        "forks_count": "",
+        "language": "Lua",
+        "stargazers_count": "",
+        "created_at": "2026-10-07T14:05:12Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 9921,
+        "forks_count_sort": 9928,
+        "created_at_sort": 1
+    },
+    {
+        "full_name": "vmaiorov-collab/ejudge.nvim",
+        "name": "ejudge.nvim",
+        "html_url": "https://github.com/vmaiorov-collab/ejudge.nvim",
+        "description": "Ejudge (\u042f\u043d\u0434\u0435\u043a\u0441 \u041a\u0440\u0443\u0436\u043e\u043a) for Neovim: contests, tests, submissions",
+        "updated_at": "2026-10-07T13:25:17Z",
+        "forks_count": "",
+        "language": "Python",
+        "stargazers_count": "",
+        "created_at": "2026-10-07T13:25:07Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 9850,
+        "forks_count_sort": 9857,
+        "created_at_sort": 2
+    },
+    {
+        "full_name": "XavierBeheydt/mdrun.nvim",
+        "name": "mdrun.nvim",
+        "html_url": "https://github.com/XavierBeheydt/mdrun.nvim",
+        "description": "Neovim plugin (Lua) to run the commands in fenced code blocks of Markdown files, right from the buffer.",
+        "updated_at": "2026-10-07T13:04:42Z",
+        "forks_count": "",
+        "language": "Lua",
+        "stargazers_count": "",
+        "created_at": "2026-10-07T12:17:24Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 9863,
+        "forks_count_sort": 9870,
+        "created_at_sort": 3
+    },
+    {
+        "full_name": "imutaroh/diffbase.nvim",
+        "name": "diffbase.nvim",
+        "html_url": "https://github.com/imutaroh/diffbase.nvim",
+        "description": "\u6bd4\u3079\u308b\u76f8\u624b\u3092\u9078\u3076\u3060\u3051\u3067\u3001\u3044\u3064\u3082\u306e Neovim \u306e\u7de8\u96c6\u753b\u9762\u304c GitHub \u306e PR \u5dee\u5206\u306b\u306a\u308b\uff08gitsigns + neo-tree\uff09/ Your normal editing view as a GitHub-style PR diff",
+        "updated_at": "2026-10-07T11:56:29Z",
+        "forks_count": "",
+        "language": "Lua",
+        "stargazers_count": "",
+        "created_at": "2026-10-07T11:25:48Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 9859,
+        "forks_count_sort": 9866,
+        "created_at_sort": 4
+    },
+    {
+        "full_name": "xiyaowong/coc-golang",
+        "name": "coc-golang",
+        "html_url": "https://github.com/xiyaowong/coc-golang",
+        "description": "Go tooling for coc.nvim, powered by gopls.",
+        "updated_at": "2026-10-07T15:18:47Z",
+        "forks_count": "",
+        "language": "TypeScript",
+        "stargazers_count": "",
+        "created_at": "2026-10-07T09:58:09Z",
+        "license_name": "MIT License",
+        "stargazers_count_sort": 9938,
+        "forks_count_sort": 9945,
+        "created_at_sort": 5
+    },
+    {
         "full_name": "chntllh-labs/omarchy-wsl",
         "name": "omarchy-wsl",
         "html_url": "https://github.com/chntllh-labs/omarchy-wsl",
@@ -10,24 +100,24 @@
         "stargazers_count": "",
         "created_at": "2026-10-07T01:01:15Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9890,
-        "forks_count_sort": 9897,
-        "created_at_sort": 0
+        "stargazers_count_sort": 9898,
+        "forks_count_sort": 9905,
+        "created_at_sort": 6
     },
     {
         "full_name": "andrey-losikhin/claude-code-tui",
         "name": "claude-code-tui",
         "html_url": "https://github.com/andrey-losikhin/claude-code-tui",
         "description": "Linux terminal workspace for Claude Code CLI: project chats, live sessions, Neovim notes and chat-only selection.",
-        "updated_at": "2026-10-06T14:51:30Z",
+        "updated_at": "2026-10-07T15:35:10Z",
         "forks_count": "",
         "language": "Rust",
         "stargazers_count": "",
         "created_at": "2026-10-06T13:52:05Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 9880,
-        "forks_count_sort": 9887,
-        "created_at_sort": 1
+        "stargazers_count_sort": 9886,
+        "forks_count_sort": 9893,
+        "created_at_sort": 7
     },
     {
         "full_name": "upyesp/epher.nvim",
@@ -40,9 +130,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-06T12:59:00Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9940,
-        "forks_count_sort": 9947,
-        "created_at_sort": 2
+        "stargazers_count_sort": 9946,
+        "forks_count_sort": 9953,
+        "created_at_sort": 8
     },
     {
         "full_name": "daaanny90/interlinked.nvim",
@@ -55,9 +145,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-06T12:12:01Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9865,
-        "forks_count_sort": 9872,
-        "created_at_sort": 3
+        "stargazers_count_sort": 9869,
+        "forks_count_sort": 9876,
+        "created_at_sort": 9
     },
     {
         "full_name": "SpechtLabs/sigil.nvim",
@@ -70,9 +160,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-06T11:16:01Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 9824,
-        "forks_count_sort": 9831,
-        "created_at_sort": 4
+        "stargazers_count_sort": 9825,
+        "forks_count_sort": 9832,
+        "created_at_sort": 10
     },
     {
         "full_name": "merkur-sh/merkur",
@@ -85,9 +175,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-06T10:01:35Z",
         "license_name": "GNU Affero General Public License v3.0",
-        "stargazers_count_sort": 9961,
-        "forks_count_sort": 9968,
-        "created_at_sort": 5
+        "stargazers_count_sort": 9965,
+        "forks_count_sort": 9972,
+        "created_at_sort": 11
     },
     {
         "full_name": "uzuw/notecli",
@@ -100,9 +190,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-06T09:08:42Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9889,
-        "forks_count_sort": 9896,
-        "created_at_sort": 6
+        "stargazers_count_sort": 9897,
+        "forks_count_sort": 9904,
+        "created_at_sort": 12
     },
     {
         "full_name": "StefanBartl/tasks.nvim",
@@ -115,9 +205,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-06T07:42:23Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9920,
-        "forks_count_sort": 9927,
-        "created_at_sort": 7
+        "stargazers_count_sort": 9911,
+        "forks_count_sort": 9918,
+        "created_at_sort": 13
     },
     {
         "full_name": "dytra/expo-status.nvim",
@@ -130,9 +220,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-06T02:35:30Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9866,
-        "forks_count_sort": 9873,
-        "created_at_sort": 8
+        "stargazers_count_sort": 9870,
+        "forks_count_sort": 9877,
+        "created_at_sort": 14
     },
     {
         "full_name": "fennec-support/kosh.nvim",
@@ -145,24 +235,24 @@
         "stargazers_count": 1,
         "created_at": "2026-10-05T23:22:17Z",
         "license_name": "BSD 3-Clause \"New\" or \"Revised\" License",
-        "stargazers_count_sort": 7921,
-        "forks_count_sort": 8001,
-        "created_at_sort": 9
+        "stargazers_count_sort": 7923,
+        "forks_count_sort": 8003,
+        "created_at_sort": 15
     },
     {
         "full_name": "StefanBartl/testing.nvim",
         "name": "testing.nvim",
         "html_url": "https://github.com/StefanBartl/testing.nvim",
         "description": "Test runner and orchestration layer for Neovim plugins, built on lib.nvim (pre-alpha skeleton)",
-        "updated_at": "2026-10-07T09:47:49Z",
+        "updated_at": "2026-10-07T16:11:53Z",
         "forks_count": "",
         "language": "Lua",
         "stargazers_count": 1,
         "created_at": "2026-10-05T19:13:28Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 8002,
-        "forks_count_sort": 8082,
-        "created_at_sort": 10
+        "stargazers_count_sort": 8014,
+        "forks_count_sort": 8094,
+        "created_at_sort": 16
     },
     {
         "full_name": "wanikhawar/ferris-forge",
@@ -175,9 +265,9 @@
         "stargazers_count": 4,
         "created_at": "2026-10-05T14:35:40Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 5078,
-        "forks_count_sort": 5442,
-        "created_at_sort": 11
+        "stargazers_count_sort": 5075,
+        "forks_count_sort": 5440,
+        "created_at_sort": 17
     },
     {
         "full_name": "waaldev/hjkl",
@@ -190,9 +280,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-05T11:37:20Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7919,
-        "forks_count_sort": 7999,
-        "created_at_sort": 12
+        "stargazers_count_sort": 7921,
+        "forks_count_sort": 8001,
+        "created_at_sort": 18
     },
     {
         "full_name": "rashedInt32/tidepool.nvim",
@@ -205,9 +295,9 @@
         "stargazers_count": 2,
         "created_at": "2026-10-05T10:12:53Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 6567,
-        "forks_count_sort": 6744,
-        "created_at_sort": 13
+        "stargazers_count_sort": 6569,
+        "forks_count_sort": 6746,
+        "created_at_sort": 19
     },
     {
         "full_name": "hardikxk/cxp.nvim",
@@ -220,9 +310,9 @@
         "stargazers_count": 2,
         "created_at": "2026-10-05T07:27:20Z",
         "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 6548,
-        "forks_count_sort": 6727,
-        "created_at_sort": 14
+        "stargazers_count_sort": 6551,
+        "forks_count_sort": 6730,
+        "created_at_sort": 20
     },
     {
         "full_name": "pleskunov/justline.nvim",
@@ -235,9 +325,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-05T05:41:40Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 8150,
-        "forks_count_sort": 8224,
-        "created_at_sort": 15
+        "stargazers_count_sort": 8151,
+        "forks_count_sort": 8225,
+        "created_at_sort": 21
     },
     {
         "full_name": "pleskunov/prose-focus.nvim",
@@ -250,9 +340,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-05T04:59:23Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 8135,
-        "forks_count_sort": 8210,
-        "created_at_sort": 16
+        "stargazers_count_sort": 8138,
+        "forks_count_sort": 8213,
+        "created_at_sort": 22
     },
     {
         "full_name": "Sal-sal-sal/plan.nvim",
@@ -265,9 +355,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-04T22:07:14Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7986,
-        "forks_count_sort": 8066,
-        "created_at_sort": 17
+        "stargazers_count_sort": 7989,
+        "forks_count_sort": 8069,
+        "created_at_sort": 23
     },
     {
         "full_name": "moneytosms/verd",
@@ -280,9 +370,9 @@
         "stargazers_count": 2,
         "created_at": "2026-10-04T19:34:03Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 6528,
-        "forks_count_sort": 3621,
-        "created_at_sort": 18
+        "stargazers_count_sort": 6533,
+        "forks_count_sort": 3622,
+        "created_at_sort": 24
     },
     {
         "full_name": "PunGrumpy/vercel.nvim",
@@ -295,9 +385,9 @@
         "stargazers_count": 2,
         "created_at": "2026-10-04T11:05:16Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 6547,
-        "forks_count_sort": 6726,
-        "created_at_sort": 19
+        "stargazers_count_sort": 6550,
+        "forks_count_sort": 6729,
+        "created_at_sort": 25
     },
     {
         "full_name": "jvzjvz/rose_dark.nvim",
@@ -310,9 +400,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-04T01:49:19Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 8383,
-        "forks_count_sort": 8436,
-        "created_at_sort": 20
+        "stargazers_count_sort": 8385,
+        "forks_count_sort": 8438,
+        "created_at_sort": 26
     },
     {
         "full_name": "jbwinters/inkling.nvim",
@@ -325,9 +415,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-03T22:04:39Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7903,
-        "forks_count_sort": 7983,
-        "created_at_sort": 21
+        "stargazers_count_sort": 7906,
+        "forks_count_sort": 7986,
+        "created_at_sort": 27
     },
     {
         "full_name": "zchee/markdown-preview.nvim",
@@ -340,24 +430,24 @@
         "stargazers_count": 1,
         "created_at": "2026-10-03T17:46:54Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 8015,
-        "forks_count_sort": 8095,
-        "created_at_sort": 22
+        "stargazers_count_sort": 8018,
+        "forks_count_sort": 8098,
+        "created_at_sort": 28
     },
     {
         "full_name": "yanglited/tmux-scrollable",
         "name": "tmux-scrollable",
         "html_url": "https://github.com/yanglited/tmux-scrollable",
         "description": "Scrollable tiling for tmux, like niri and PaperWM: new columns scroll in from the right instead of squeezing your panes",
-        "updated_at": "2026-10-05T08:48:14Z",
+        "updated_at": "2026-10-07T16:13:13Z",
         "forks_count": "",
         "language": "Shell",
-        "stargazers_count": 11,
+        "stargazers_count": 12,
         "created_at": "2026-10-03T11:55:47Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 3442,
-        "forks_count_sort": 4326,
-        "created_at_sort": 23
+        "stargazers_count_sort": 3349,
+        "forks_count_sort": 4292,
+        "created_at_sort": 29
     },
     {
         "full_name": "gregmurray90/neovim-desktop",
@@ -370,9 +460,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-03T11:09:03Z",
         "license_name": "Other",
-        "stargazers_count_sort": 7933,
-        "forks_count_sort": 8013,
-        "created_at_sort": 24
+        "stargazers_count_sort": 7941,
+        "forks_count_sort": 8021,
+        "created_at_sort": 30
     },
     {
         "full_name": "aksh1618/herdr-vimnotate",
@@ -385,9 +475,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-03T11:03:54Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 9960,
-        "forks_count_sort": 9967,
-        "created_at_sort": 25
+        "stargazers_count_sort": 9964,
+        "forks_count_sort": 9971,
+        "created_at_sort": 31
     },
     {
         "full_name": "PrajwalChigod/renderer.nvim",
@@ -400,9 +490,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-02T14:33:34Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9872,
-        "forks_count_sort": 9879,
-        "created_at_sort": 26
+        "stargazers_count_sort": 9892,
+        "forks_count_sort": 9899,
+        "created_at_sort": 32
     },
     {
         "full_name": "XobSod/nvim-diffmerge",
@@ -415,9 +505,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-01T20:37:14Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 8326,
-        "forks_count_sort": 8380,
-        "created_at_sort": 27
+        "stargazers_count_sort": 8327,
+        "forks_count_sort": 8381,
+        "created_at_sort": 33
     },
     {
         "full_name": "agmonetti/mdview.nvim",
@@ -430,9 +520,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-01T19:56:26Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7998,
-        "forks_count_sort": 8078,
-        "created_at_sort": 28
+        "stargazers_count_sort": 8001,
+        "forks_count_sort": 8081,
+        "created_at_sort": 34
     },
     {
         "full_name": "gpappasunb/insert-visual-paste.nvim",
@@ -444,9 +534,9 @@
         "language": "Lua",
         "stargazers_count": 1,
         "created_at": "2026-10-01T19:17:35Z",
-        "stargazers_count_sort": 7931,
-        "forks_count_sort": 8011,
-        "created_at_sort": 29
+        "stargazers_count_sort": 7930,
+        "forks_count_sort": 8010,
+        "created_at_sort": 35
     },
     {
         "full_name": "ayame0328/agentmap.nvim",
@@ -459,9 +549,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-01T15:20:41Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7955,
-        "forks_count_sort": 8035,
-        "created_at_sort": 30
+        "stargazers_count_sort": 7913,
+        "forks_count_sort": 7993,
+        "created_at_sort": 36
     },
     {
         "full_name": "thomasian06/herdr-nvim",
@@ -474,9 +564,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-01T13:27:26Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 10068,
-        "forks_count_sort": 10074,
-        "created_at_sort": 31
+        "stargazers_count_sort": 10074,
+        "forks_count_sort": 10080,
+        "created_at_sort": 37
     },
     {
         "full_name": "jeffctl/normal-mode",
@@ -489,9 +579,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-01T13:22:42Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9943,
-        "forks_count_sort": 9950,
-        "created_at_sort": 32
+        "stargazers_count_sort": 9949,
+        "forks_count_sort": 9956,
+        "created_at_sort": 38
     },
     {
         "full_name": "warbacon/lignite.nvim",
@@ -503,9 +593,9 @@
         "language": "Lua",
         "stargazers_count": "",
         "created_at": "2026-10-01T12:59:23Z",
-        "stargazers_count_sort": 9851,
-        "forks_count_sort": 9858,
-        "created_at_sort": 33
+        "stargazers_count_sort": 9853,
+        "forks_count_sort": 9860,
+        "created_at_sort": 39
     },
     {
         "full_name": "tbsmcd/claude-deck.nvim",
@@ -518,9 +608,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-01T07:44:48Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7922,
-        "forks_count_sort": 8002,
-        "created_at_sort": 34
+        "stargazers_count_sort": 7938,
+        "forks_count_sort": 8018,
+        "created_at_sort": 40
     },
     {
         "full_name": "rvwallace/lazyvim",
@@ -533,9 +623,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-01T06:36:38Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 9871,
-        "forks_count_sort": 9878,
-        "created_at_sort": 35
+        "stargazers_count_sort": 9891,
+        "forks_count_sort": 9898,
+        "created_at_sort": 41
     },
     {
         "full_name": "edevPedro/edge-mage",
@@ -548,9 +638,9 @@
         "stargazers_count": 1,
         "created_at": "2026-10-01T06:00:49Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7973,
-        "forks_count_sort": 8053,
-        "created_at_sort": 36
+        "stargazers_count_sort": 7976,
+        "forks_count_sort": 8056,
+        "created_at_sort": 42
     },
     {
         "full_name": "SaltedTan/virgil-language-server",
@@ -563,9 +653,9 @@
         "stargazers_count": "",
         "created_at": "2026-10-01T01:09:50Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 9836,
-        "forks_count_sort": 9843,
-        "created_at_sort": 37
+        "stargazers_count_sort": 9835,
+        "forks_count_sort": 9842,
+        "created_at_sort": 43
     },
     {
         "full_name": "sampsn/pair.nvim",
@@ -578,9 +668,9 @@
         "stargazers_count": 5,
         "created_at": "2026-09-30T21:14:57Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 4668,
-        "forks_count_sort": 5121,
-        "created_at_sort": 38
+        "stargazers_count_sort": 4670,
+        "forks_count_sort": 5123,
+        "created_at_sort": 44
     },
     {
         "full_name": "bakageddy/classic.nvim",
@@ -593,9 +683,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-30T14:45:29Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 10470,
-        "forks_count_sort": 10471,
-        "created_at_sort": 39
+        "stargazers_count_sort": 10477,
+        "forks_count_sort": 10478,
+        "created_at_sort": 45
     },
     {
         "full_name": "daaanny90/zed.nvim",
@@ -608,9 +698,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-30T14:40:12Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9968,
-        "forks_count_sort": 9975,
-        "created_at_sort": 40
+        "stargazers_count_sort": 9974,
+        "forks_count_sort": 9981,
+        "created_at_sort": 46
     },
     {
         "full_name": "bedrocklols-cave/nvim",
@@ -622,9 +712,9 @@
         "language": "Lua",
         "stargazers_count": "",
         "created_at": "2026-09-30T12:01:56Z",
-        "stargazers_count_sort": 9830,
-        "forks_count_sort": 9837,
-        "created_at_sort": 41
+        "stargazers_count_sort": 9837,
+        "forks_count_sort": 9844,
+        "created_at_sort": 47
     },
     {
         "full_name": "dylanbr/nvim-agent-skill",
@@ -637,9 +727,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-30T10:42:07Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9935,
-        "forks_count_sort": 9942,
-        "created_at_sort": 42
+        "stargazers_count_sort": 9941,
+        "forks_count_sort": 9948,
+        "created_at_sort": 48
     },
     {
         "full_name": "PedroOrtRec/cheat",
@@ -652,9 +742,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-29T23:38:29Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9959,
-        "forks_count_sort": 9966,
-        "created_at_sort": 43
+        "stargazers_count_sort": 9963,
+        "forks_count_sort": 9970,
+        "created_at_sort": 49
     },
     {
         "full_name": "thyrgle/declint.nvim",
@@ -667,9 +757,9 @@
         "stargazers_count": 2,
         "created_at": "2026-09-29T19:32:13Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 6577,
-        "forks_count_sort": 6754,
-        "created_at_sort": 44
+        "stargazers_count_sort": 6579,
+        "forks_count_sort": 6756,
+        "created_at_sort": 50
     },
     {
         "full_name": "MizuchiLabs/tsugi.nvim",
@@ -682,9 +772,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-29T18:52:02Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 9879,
-        "forks_count_sort": 9886,
-        "created_at_sort": 45
+        "stargazers_count_sort": 9885,
+        "forks_count_sort": 9892,
+        "created_at_sort": 51
     },
     {
         "full_name": "shang-shang95/herdr-keys",
@@ -697,9 +787,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-29T16:01:50Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9887,
-        "forks_count_sort": 9894,
-        "created_at_sort": 46
+        "stargazers_count_sort": 9895,
+        "forks_count_sort": 9902,
+        "created_at_sort": 52
     },
     {
         "full_name": "mealet/zeen-nvim",
@@ -712,9 +802,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-29T13:05:46Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 10386,
-        "forks_count_sort": 10387,
-        "created_at_sort": 47
+        "stargazers_count_sort": 10392,
+        "forks_count_sort": 10393,
+        "created_at_sort": 53
     },
     {
         "full_name": "miyago9267/archipelago.nvim",
@@ -727,9 +817,9 @@
         "stargazers_count": 1,
         "created_at": "2026-09-29T09:28:28Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7880,
-        "forks_count_sort": 7963,
-        "created_at_sort": 48
+        "stargazers_count_sort": 7883,
+        "forks_count_sort": 7966,
+        "created_at_sort": 54
     },
     {
         "full_name": "kva4/agent-dashboard.nvim",
@@ -741,9 +831,9 @@
         "language": "Lua",
         "stargazers_count": 1,
         "created_at": "2026-09-29T08:54:17Z",
-        "stargazers_count_sort": 7877,
-        "forks_count_sort": 7960,
-        "created_at_sort": 49
+        "stargazers_count_sort": 7880,
+        "forks_count_sort": 7963,
+        "created_at_sort": 55
     },
     {
         "full_name": "luisfer-cli/helpdocs.nvim",
@@ -755,9 +845,9 @@
         "language": "Lua",
         "stargazers_count": 1,
         "created_at": "2026-09-29T01:01:30Z",
-        "stargazers_count_sort": 8008,
-        "forks_count_sort": 8088,
-        "created_at_sort": 50
+        "stargazers_count_sort": 8007,
+        "forks_count_sort": 8087,
+        "created_at_sort": 56
     },
     {
         "full_name": "mmrmagno/docmost.nvim",
@@ -770,9 +860,9 @@
         "stargazers_count": 2,
         "created_at": "2026-09-28T19:59:52Z",
         "license_name": "GNU Affero General Public License v3.0",
-        "stargazers_count_sort": 6562,
-        "forks_count_sort": 6740,
-        "created_at_sort": 51
+        "stargazers_count_sort": 6564,
+        "forks_count_sort": 6742,
+        "created_at_sort": 57
     },
     {
         "full_name": "gig3m/vimchi",
@@ -785,9 +875,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-28T12:40:13Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9902,
-        "forks_count_sort": 9909,
-        "created_at_sort": 52
+        "stargazers_count_sort": 9858,
+        "forks_count_sort": 9865,
+        "created_at_sort": 58
     },
     {
         "full_name": "nebourocket/kulala-core",
@@ -800,9 +890,9 @@
         "stargazers_count": 1,
         "created_at": "2026-09-28T11:13:35Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7958,
-        "forks_count_sort": 8038,
-        "created_at_sort": 53
+        "stargazers_count_sort": 7970,
+        "forks_count_sort": 8050,
+        "created_at_sort": 59
     },
     {
         "full_name": "M5Devs/vbx-editors",
@@ -815,9 +905,9 @@
         "stargazers_count": 2,
         "created_at": "2026-09-28T10:32:52Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 6555,
-        "forks_count_sort": 6733,
-        "created_at_sort": 54
+        "stargazers_count_sort": 6552,
+        "forks_count_sort": 6731,
+        "created_at_sort": 60
     },
     {
         "full_name": "delphinus/md-rich-copy.nvim",
@@ -830,9 +920,9 @@
         "stargazers_count": 2,
         "created_at": "2026-09-28T03:48:05Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 6560,
-        "forks_count_sort": 6738,
-        "created_at_sort": 55
+        "stargazers_count_sort": 6562,
+        "forks_count_sort": 6740,
+        "created_at_sort": 61
     },
     {
         "full_name": "leissa/nvim-typst",
@@ -845,9 +935,9 @@
         "stargazers_count": 3,
         "created_at": "2026-09-27T22:04:13Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 5752,
-        "forks_count_sort": 6006,
-        "created_at_sort": 56
+        "stargazers_count_sort": 5754,
+        "forks_count_sort": 6008,
+        "created_at_sort": 62
     },
     {
         "full_name": "MaraniMatias/Marvis",
@@ -860,9 +950,9 @@
         "stargazers_count": 2,
         "created_at": "2026-09-27T20:57:53Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 6827,
-        "forks_count_sort": 6978,
-        "created_at_sort": 57
+        "stargazers_count_sort": 6829,
+        "forks_count_sort": 6980,
+        "created_at_sort": 63
     },
     {
         "full_name": "hardcodd/paired-tags.nvim",
@@ -875,9 +965,9 @@
         "stargazers_count": 1,
         "created_at": "2026-09-27T16:27:37Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7968,
-        "forks_count_sort": 8048,
-        "created_at_sort": 58
+        "stargazers_count_sort": 7951,
+        "forks_count_sort": 8031,
+        "created_at_sort": 64
     },
     {
         "full_name": "taffy-nya/hexit.nvim",
@@ -890,9 +980,9 @@
         "stargazers_count": 2,
         "created_at": "2026-09-27T15:30:48Z",
         "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 6541,
-        "forks_count_sort": 6720,
-        "created_at_sort": 59
+        "stargazers_count_sort": 6544,
+        "forks_count_sort": 6723,
+        "created_at_sort": 65
     },
     {
         "full_name": "patissierMongs/transplit.nvim",
@@ -905,9 +995,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-27T10:42:14Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9863,
-        "forks_count_sort": 9870,
-        "created_at_sort": 60
+        "stargazers_count_sort": 9867,
+        "forks_count_sort": 9874,
+        "created_at_sort": 66
     },
     {
         "full_name": "Rahularya01/tether.nvim",
@@ -920,9 +1010,9 @@
         "stargazers_count": 3,
         "created_at": "2026-09-27T09:43:43Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 5623,
-        "forks_count_sort": 5890,
-        "created_at_sort": 61
+        "stargazers_count_sort": 5624,
+        "forks_count_sort": 5891,
+        "created_at_sort": 67
     },
     {
         "full_name": "sazardev/omarchy-english-toolkit",
@@ -935,9 +1025,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-26T21:01:27Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9942,
-        "forks_count_sort": 9949,
-        "created_at_sort": 62
+        "stargazers_count_sort": 9948,
+        "forks_count_sort": 9955,
+        "created_at_sort": 68
     },
     {
         "full_name": "mariocesar/beside.nvim",
@@ -951,8 +1041,8 @@
         "created_at": "2026-09-26T18:09:21Z",
         "license_name": "MIT License",
         "stargazers_count_sort": 2616,
-        "forks_count_sort": 3995,
-        "created_at_sort": 63
+        "forks_count_sort": 3996,
+        "created_at_sort": 69
     },
     {
         "full_name": "leissa/nvim-tex",
@@ -965,9 +1055,9 @@
         "stargazers_count": 3,
         "created_at": "2026-09-26T17:18:54Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 5743,
-        "forks_count_sort": 5997,
-        "created_at_sort": 64
+        "stargazers_count_sort": 5745,
+        "forks_count_sort": 5999,
+        "created_at_sort": 70
     },
     {
         "full_name": "DailybotHQ/deepworkplan-vim",
@@ -980,9 +1070,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-26T16:46:13Z",
         "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 9870,
-        "forks_count_sort": 9877,
-        "created_at_sort": 65
+        "stargazers_count_sort": 9890,
+        "forks_count_sort": 9897,
+        "created_at_sort": 71
     },
     {
         "full_name": "17robots/dyn-editors",
@@ -995,9 +1085,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-26T15:42:52Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9937,
-        "forks_count_sort": 9944,
-        "created_at_sort": 66
+        "stargazers_count_sort": 9943,
+        "forks_count_sort": 9950,
+        "created_at_sort": 72
     },
     {
         "full_name": "yashLadha/intellij.nvim",
@@ -1010,9 +1100,9 @@
         "stargazers_count": 1,
         "created_at": "2026-09-26T11:36:22Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7886,
-        "forks_count_sort": 7968,
-        "created_at_sort": 67
+        "stargazers_count_sort": 7889,
+        "forks_count_sort": 7971,
+        "created_at_sort": 73
     },
     {
         "full_name": "bouteillerAlan/miel",
@@ -1025,9 +1115,9 @@
         "stargazers_count": 1,
         "created_at": "2026-09-25T22:33:24Z",
         "license_name": "GNU General Public License v3.0",
-        "stargazers_count_sort": 7950,
-        "forks_count_sort": 8030,
-        "created_at_sort": 68
+        "stargazers_count_sort": 7967,
+        "forks_count_sort": 8047,
+        "created_at_sort": 74
     },
     {
         "full_name": "michaelblaess/retro-coding-themes",
@@ -1040,9 +1130,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-25T20:44:29Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 10475,
-        "forks_count_sort": 10476,
-        "created_at_sort": 69
+        "stargazers_count_sort": 10482,
+        "forks_count_sort": 10483,
+        "created_at_sort": 75
     },
     {
         "full_name": "lanteignel93/spacecowboy.nvim",
@@ -1055,9 +1145,9 @@
         "stargazers_count": 1,
         "created_at": "2026-09-25T18:53:35Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 8009,
-        "forks_count_sort": 8089,
-        "created_at_sort": 70
+        "stargazers_count_sort": 8008,
+        "forks_count_sort": 8088,
+        "created_at_sort": 76
     },
     {
         "full_name": "lanteignel93/voidrunner.nvim",
@@ -1070,16 +1160,16 @@
         "stargazers_count": "",
         "created_at": "2026-09-25T18:53:31Z",
         "license_name": "Other",
-        "stargazers_count_sort": 9939,
-        "forks_count_sort": 9946,
-        "created_at_sort": 71
+        "stargazers_count_sort": 9945,
+        "forks_count_sort": 9952,
+        "created_at_sort": 77
     },
     {
         "full_name": "wurli/servery.nvim",
         "name": "servery.nvim",
         "html_url": "https://github.com/wurli/servery.nvim",
         "description": "Jump between Neovim sessions using your favourite fuzzy finder \ud83d\udca8",
-        "updated_at": "2026-10-03T15:49:38Z",
+        "updated_at": "2026-10-07T11:52:30Z",
         "forks_count": 4,
         "language": "Lua",
         "stargazers_count": 67,
@@ -1087,7 +1177,7 @@
         "license_name": "MIT License",
         "stargazers_count_sort": 1519,
         "forks_count_sort": 1579,
-        "created_at_sort": 72
+        "created_at_sort": 78
     },
     {
         "full_name": "barbarath89/gliner2-ultrafast",
@@ -1100,9 +1190,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-25T12:55:29Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9919,
-        "forks_count_sort": 9926,
-        "created_at_sort": 73
+        "stargazers_count_sort": 9912,
+        "forks_count_sort": 9919,
+        "created_at_sort": 79
     },
     {
         "full_name": "rashedInt32/loom.nvim",
@@ -1114,9 +1204,9 @@
         "language": "Lua",
         "stargazers_count": 3,
         "created_at": "2026-09-25T09:34:23Z",
-        "stargazers_count_sort": 5629,
-        "forks_count_sort": 5896,
-        "created_at_sort": 74
+        "stargazers_count_sort": 5631,
+        "forks_count_sort": 5898,
+        "created_at_sort": 80
     },
     {
         "full_name": "skhan75/volley.nvim",
@@ -1129,9 +1219,9 @@
         "stargazers_count": 2,
         "created_at": "2026-09-25T07:37:28Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 6573,
-        "forks_count_sort": 6750,
-        "created_at_sort": 75
+        "stargazers_count_sort": 6575,
+        "forks_count_sort": 6752,
+        "created_at_sort": 81
     },
     {
         "full_name": "Kurichi/pr-viewer.nvim",
@@ -1144,9 +1234,9 @@
         "stargazers_count": 1,
         "created_at": "2026-09-25T05:50:58Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 8007,
-        "forks_count_sort": 8087,
-        "created_at_sort": 76
+        "stargazers_count_sort": 8006,
+        "forks_count_sort": 8086,
+        "created_at_sort": 82
     },
     {
         "full_name": "HumbleSeer42/bitflip.nvim",
@@ -1159,9 +1249,9 @@
         "stargazers_count": 1,
         "created_at": "2026-09-25T04:26:48Z",
         "license_name": "ISC License",
-        "stargazers_count_sort": 8335,
-        "forks_count_sort": 8389,
-        "created_at_sort": 77
+        "stargazers_count_sort": 8336,
+        "forks_count_sort": 8390,
+        "created_at_sort": 83
     },
     {
         "full_name": "ys-math/rill",
@@ -1174,9 +1264,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-25T04:10:44Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9912,
-        "forks_count_sort": 9919,
-        "created_at_sort": 78
+        "stargazers_count_sort": 9904,
+        "forks_count_sort": 9911,
+        "created_at_sort": 84
     },
     {
         "full_name": "HuntedByTheIRS/visor",
@@ -1189,9 +1279,9 @@
         "stargazers_count": 4,
         "created_at": "2026-09-25T02:41:22Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 5204,
-        "forks_count_sort": 5547,
-        "created_at_sort": 79
+        "stargazers_count_sort": 5203,
+        "forks_count_sort": 5546,
+        "created_at_sort": 85
     },
     {
         "full_name": "osama0112989757300-gif/unclutter",
@@ -1204,9 +1294,9 @@
         "stargazers_count": "",
         "created_at": "2026-09-25T02:19:04Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 9817,
-        "forks_count_sort": 9824,
-        "created_at_sort": 80
+        "stargazers_count_sort": 9818,
+        "forks_count_sort": 9825,
+        "created_at_sort": 86
     },
     {
         "full_name": "skhan75/tailf.nvim",
@@ -1219,9 +1309,9 @@
         "stargazers_count": 2,
         "created_at": "2026-09-25T00:57:49Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 6556,
-        "forks_count_sort": 6734,
-        "created_at_sort": 81
+        "stargazers_count_sort": 6553,
+        "forks_count_sort": 6732,
+        "created_at_sort": 87
     },
     {
         "full_name": "ChrisGVE/docshelf.nvim",
@@ -1234,24 +1324,24 @@
         "stargazers_count": 5,
         "created_at": "2026-09-24T22:15:12Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 4666,
-        "forks_count_sort": 5119,
-        "created_at_sort": 82
+        "stargazers_count_sort": 4668,
+        "forks_count_sort": 5121,
+        "created_at_sort": 88
     },
     {
         "full_name": "kudokudo1/Post-Apollo-Astro-Snacks",
         "name": "Post-Apollo-Astro-Snacks",
         "html_url": "https://github.com/kudokudo1/Post-Apollo-Astro-Snacks",
         "description": "The development editor of the Post-Apollo Family \u2014 shaping the relationship between operator, terminal, editor, code, tools, context, and creation, turning text editing into a connected working environment for navigating, understanding, changing, and building software.",
-        "updated_at": "2026-10-07T02:56:07Z",
+        "updated_at": "2026-10-07T15:22:40Z",
         "forks_count": "",
         "language": "Lua",
         "stargazers_count": "",
         "created_at": "2026-09-24T21:21:00Z",
         "license_name": "Other",
-        "stargazers_count_sort": 9947,
-        "forks_count_sort": 9954,
-        "created_at_sort": 83
+        "stargazers_count_sort": 9953,
+        "forks_count_sort": 9960,
+        "created_at_sort": 89
     },
     {
         "full_name": "JohnKingKong/the-grapevine.nvim",
@@ -1263,9 +1353,9 @@
         "language": "Lua",
         "stargazers_count": 2,
         "created_at": "2026-09-24T15:20:14Z",
-        "stargazers_count_sort": 6710,
-        "forks_count_sort": 6877,
-        "created_at_sort": 84
+        "stargazers_count_sort": 6711,
+        "forks_count_sort": 6878,
+        "created_at_sort": 90
     },
     {
         "full_name": "konradmalik/sops.nvim",
@@ -1278,9 +1368,9 @@
         "stargazers_count": 2,
         "created_at": "2026-09-24T11:20:18Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 6520,
-        "forks_count_sort": 6701,
-        "created_at_sort": 85
+        "stargazers_count_sort": 6522,
+        "forks_count_sort": 6703,
+        "created_at_sort": 91
     },
     {
         "full_name": "0xOpCode/ByteC",
@@ -1293,9 +1383,9 @@
         "stargazers_count": 2,
         "created_at": "2026-09-24T09:35:53Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 6530,
-        "forks_count_sort": 6710,
-        "created_at_sort": 86
+        "stargazers_count_sort": 6531,
+        "forks_count_sort": 6712,
+        "created_at_sort": 92
     },
     {
         "full_name": "xiyaowong/coc-luals",
@@ -1308,9 +1398,9 @@
         "stargazers_count": 1,
         "created_at": "2026-09-24T07:39:11Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7985,
-        "forks_count_sort": 8065,
-        "created_at_sort": 87
+        "stargazers_count_sort": 7988,
+        "forks_count_sort": 8068,
+        "created_at_sort": 93
     },
     {
         "full_name": "pratikmullick/colmap.nvim",
@@ -1323,9 +1413,9 @@
         "stargazers_count": 1,
         "created_at": "2026-09-24T07:24:24Z",
         "license_name": "Apache License 2.0",
-        "stargazers_count_sort": 8010,
-        "forks_count_sort": 8090,
-        "created_at_sort": 88
+        "stargazers_count_sort": 8009,
+        "forks_count_sort": 8089,
+        "created_at_sort": 94
     },
     {
         "full_name": "smart-splits-nvim/backend-kitty",
@@ -1338,9 +1428,9 @@
         "stargazers_count": 17,
         "created_at": "2026-09-24T06:27:30Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 2921,
-        "forks_count_sort": 4108,
-        "created_at_sort": 89
+        "stargazers_count_sort": 2922,
+        "forks_count_sort": 4109,
+        "created_at_sort": 95
     },
     {
         "full_name": "crafts69guy/cocoindex.nvim",
@@ -1353,9 +1443,9 @@
         "stargazers_count": 2,
         "created_at": "2026-09-24T04:17:38Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 6544,
-        "forks_count_sort": 6723,
-        "created_at_sort": 90
+        "stargazers_count_sort": 6546,
+        "forks_count_sort": 6725,
+        "created_at_sort": 96
     },
     {
         "full_name": "ishianecho/maa-pipeline.nvim",
@@ -1368,9 +1458,9 @@
         "stargazers_count": 1,
         "created_at": "2026-09-24T03:50:13Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 7918,
-        "forks_count_sort": 7998,
-        "created_at_sort": 91
+        "stargazers_count_sort": 7920,
+        "forks_count_sort": 8000,
+        "created_at_sort": 97
     },
     {
         "full_name": "LeonardoBringel/nvim-markdown-panel-plugin",
@@ -1382,112 +1472,23 @@
         "language": "Lua",
         "stargazers_count": 2,
         "created_at": "2026-09-24T03:37:59Z",
-        "stargazers_count_sort": 6832,
-        "forks_count_sort": 6983,
-        "created_at_sort": 92
+        "stargazers_count_sort": 6834,
+        "forks_count_sort": 6985,
+        "created_at_sort": 98
     },
     {
         "full_name": "xheisenbugx/org.nvim",
         "name": "org.nvim",
         "html_url": "https://github.com/xheisenbugx/org.nvim",
         "description": "Org mode for neovim",
-        "updated_at": "2026-10-07T08:45:36Z",
+        "updated_at": "2026-10-07T15:50:35Z",
         "forks_count": 2,
         "language": "Lua",
-        "stargazers_count": 81,
+        "stargazers_count": 83,
         "created_at": "2026-09-24T03:24:41Z",
         "license_name": "MIT License",
-        "stargazers_count_sort": 1383,
-        "forks_count_sort": 2092,
-        "created_at_sort": 93
-    },
-    {
-        "full_name": "wmxscott/theme-monitor",
-        "name": "theme-monitor",
-        "html_url": "https://github.com/wmxscott/theme-monitor",
-        "description": "Real-time monitor of macOS theme changes with publishing to trigger file for watching",
-        "updated_at": "2026-09-24T23:52:18Z",
-        "forks_count": "",
-        "language": "Swift",
-        "stargazers_count": "",
-        "created_at": "2026-09-23T21:28:22Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 9930,
-        "forks_count_sort": 9937,
-        "created_at_sort": 94
-    },
-    {
-        "full_name": "umiyosh/ai-polish.nvim",
-        "name": "ai-polish.nvim",
-        "html_url": "https://github.com/umiyosh/ai-polish.nvim",
-        "description": "Proofread and polish prose in Neovim with Gemini",
-        "updated_at": "2026-10-07T09:30:27Z",
-        "forks_count": "",
-        "language": "Lua",
-        "stargazers_count": 6,
-        "created_at": "2026-09-23T14:37:42Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 4364,
-        "forks_count_sort": 4896,
-        "created_at_sort": 95
-    },
-    {
-        "full_name": "sukhostavets/pi-follow",
-        "name": "pi-follow",
-        "html_url": "https://github.com/sukhostavets/pi-follow",
-        "description": "Follow the Pi coding agent in Neovim: see the files it reads and edits, live.",
-        "updated_at": "2026-09-23T14:12:26Z",
-        "forks_count": "",
-        "language": "TypeScript",
-        "stargazers_count": "",
-        "created_at": "2026-09-23T14:12:17Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 9853,
-        "forks_count_sort": 9860,
-        "created_at_sort": 96
-    },
-    {
-        "full_name": "leissa/nvim-swap",
-        "name": "nvim-swap",
-        "html_url": "https://github.com/leissa/nvim-swap",
-        "description": "Reorder delimited items.",
-        "updated_at": "2026-09-30T09:56:04Z",
-        "forks_count": "",
-        "language": "Lua",
-        "stargazers_count": 3,
-        "created_at": "2026-09-23T12:21:02Z",
-        "stargazers_count_sort": 5745,
-        "forks_count_sort": 5999,
-        "created_at_sort": 97
-    },
-    {
-        "full_name": "bfernandez31/survol",
-        "name": "survol",
-        "html_url": "https://github.com/bfernandez31/survol",
-        "description": "A bird's-eye view of large pull requests",
-        "updated_at": "2026-09-29T22:27:46Z",
-        "forks_count": "",
-        "language": "Rust",
-        "stargazers_count": "",
-        "created_at": "2026-09-23T11:25:12Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 9932,
-        "forks_count_sort": 9939,
-        "created_at_sort": 98
-    },
-    {
-        "full_name": "nanefin/flat.nvim",
-        "name": "flat.nvim",
-        "html_url": "https://github.com/nanefin/flat.nvim",
-        "description": "A lightweight, high-speed structured plain-text editor integration for Neovim.",
-        "updated_at": "2026-09-28T13:16:29Z",
-        "forks_count": "",
-        "language": "Lua",
-        "stargazers_count": "",
-        "created_at": "2026-09-23T11:13:13Z",
-        "license_name": "MIT License",
-        "stargazers_count_sort": 9910,
-        "forks_count_sort": 9917,
+        "stargazers_count_sort": 1359,
+        "forks_count_sort": 2087,
         "created_at_sort": 99
     }
 ]
